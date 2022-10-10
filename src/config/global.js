@@ -58,6 +58,13 @@ export default {
         titulo: 'Geometría básica e introducción al sketch',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: `Dibujo con perspectivas, utilización de uno y más puntos de fuga`,
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {

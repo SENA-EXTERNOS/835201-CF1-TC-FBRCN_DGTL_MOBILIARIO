@@ -93,8 +93,27 @@
               i.lista-ul__vineta
               | Área: corresponde a la medida de la superficie que la figura ocupa. Con base en esto, cada polígono o figura geométrica plana, tiene una ecuación o procedimiento para establecer la magnitud de su área. Se recomienda leer el documento citado en las referencias y llevar a cabo los ejercicios referenciados para adquirir práctica y destreza en la determinación de áreas.   
             li
+    .row
 
+      <b><h4>Sketch</h4></b>
 
+      p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
+
+    .row.my-4
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
+        .bloque-texto-g__img.color-gris.img-cover(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-5.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante, normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros, y se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
+
+    .row.my-4
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
+        .bloque-texto-g__img.color-gris(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-6.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el sketch o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
 </template>
 
 <script>

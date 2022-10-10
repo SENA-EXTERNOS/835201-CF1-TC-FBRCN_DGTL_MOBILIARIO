@@ -47,7 +47,7 @@
               p.mb-0 Los siguientes, son algunos de los principales elementos y herramientas utilizados normalmente en el dibujo técnico:
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
             figure
-              img(src=" ")
+              img(src="@/assets/curso/temas/tema2/img-3.png")
         
     p.mb-3 Para conocer más sobre las herramientas usadas en dibujo técnico, lea el documento que se encuentra a continuación.
     a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
