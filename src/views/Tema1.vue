@@ -135,7 +135,6 @@
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/tema1/tarjeta-f3.png")
-        
 
     .row.mt-5
       em.py-2 La arquitectura y el diseño de mobiliario van de la mano, el diseño de mobiliario complementa, transforma y en muchas ocasiones condiciona la arquitectura de proyectos de construcción.
