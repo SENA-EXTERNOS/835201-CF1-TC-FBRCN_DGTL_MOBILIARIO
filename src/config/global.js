@@ -93,6 +93,34 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: `Cliente y mercado`,
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Dibujo y recreación de ambientes',
+            hash: 't_7_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Introducción a la administración',
+            hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema8',
+        icono: 'far fa-file-alt',
+        numero: '8',
+        titulo: `Tendencias de diseño mobiliario`,
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
