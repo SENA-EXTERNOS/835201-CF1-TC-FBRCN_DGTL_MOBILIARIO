@@ -89,7 +89,7 @@
     
     em.mx-5 Ejemplo de dibujo con tres puntos de fuga.
 
-    p El siguiente enlace conduce a una muestra de la realización del proceso de perspectiva, utilizando una herramienta digital mediante un dispositivo móvil. Lo invito a observar el video.
+    p.my-4 El siguiente enlace conduce a una muestra de la realización del proceso de perspectiva, utilizando una herramienta digital mediante un dispositivo móvil. Lo invito a observar el video.
 
     a.boton--sm.color-acento-botones.texto-blanco.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Enlace

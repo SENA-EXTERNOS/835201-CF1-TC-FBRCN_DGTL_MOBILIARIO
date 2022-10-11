@@ -65,6 +65,34 @@ export default {
         titulo: `Dibujo con perspectivas, utilización de uno y más puntos de fuga`,
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: `Dibujo de cuerpos con volumen, vistas e isométricos `,
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: `6. Elementos y procesos del diseño`,
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Dibujo y recreación de ambientes',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Materiales metálicos y accesorios.',
+            hash: 't_6_2',
+          },
+        ],
+      },
     ],
     subMenu: [
       {
