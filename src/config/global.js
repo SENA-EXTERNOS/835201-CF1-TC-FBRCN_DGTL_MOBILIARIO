@@ -3,7 +3,7 @@ export default {
     componenteFormativo: `DISEÑO DE MOBILIARIO CON ENFOQUE A MERCADO Y CLIENTES`,
     descripcionCurso: `Componente enfocado en adquirir las competencias básicas del dibujo y diseño de prototipos de mobiliarios, tomando como referencia los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, orientado a la satisfacción de las necesidades del cliente y del mercado.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],

@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
-
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 2. Dibujo técnico, elementos y herramientas
+      h1 Dibujo técnico, elementos y herramientas
 
     .row
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
@@ -17,8 +14,8 @@
         )
         .bloque-texto-g__texto.p-4
           p <b>El dibujo técnico</b> es la manera en que se lleva a cabo la <b>representación gráfica,</b> plasmada generalmente en una hoja o papel, de objetos o cosas. A diferencia del dibujo libre o boceto, éste contiene la información necesaria para ser leído e interpretado por quien lo tiene en sus manos para llevar a cabo la <b>producción,</b> <b>elaboración</b> o<b> prototipado</b>. El dibujo técnico se ajusta a un conjunto de normativas y reglas bajo las cuales el proyectista o diseñador lleva a cabo la representación gráfica, la manera en la cual se escribe el texto, la acomodación de líneas, el tipo de unidades de medida, y el tipo de letra utilizada en el dibujo técnico, lo cual permite que este pueda ser interpretado universalmente.
-    br
-    em.p-5.m-4 El dibujo técnico y las normas que sobre este aplican, permiten que la información para la comprensión de un diseño pueda darse de manera universal.
+
+      em.my-4.mx-4 El dibujo técnico y las normas que sobre este aplican, permiten que la información para la comprensión de un diseño pueda darse de manera universal.
 
     .row.justify-content-center.pt-4
       .col-lg-8
@@ -50,11 +47,10 @@
               img(src="@/assets/curso/temas/tema2/img-3.png")
         
     p.mb-3 Para conocer más sobre las herramientas usadas en dibujo técnico, lea el documento que se encuentra a continuación.
+
     a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
-
-
 </template>
 
 <script>

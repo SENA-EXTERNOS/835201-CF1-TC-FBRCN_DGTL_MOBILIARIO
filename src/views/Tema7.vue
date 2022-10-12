@@ -10,17 +10,17 @@
     .titulo-segundo.color-acento-contenido.pb-2
       h2 7. Cliente y mercado
 
-    p.my-4 El mercado de los productos mobiliarios es tan diverso y amplio como el tipo de clientes que pueden existir. Los clientes son las personas que, en función de sus gustos, preferencias y actividades, demandan la adquisición de mobiliarios para el descanso, ocio, trabajo e incluso, mascotas. 
+    p.my-4 El mercado de los productos mobiliarios es tan diverso y amplio como el tipo de clientes que pueden existir. <b>Los clientes</b> son las personas que, en función de sus gustos, preferencias y actividades, demandan la adquisición de mobiliarios para el descanso, ocio, trabajo e incluso, mascotas. 
 
-    p.my-2 El estudio y diferenciación de los tipos de clientes, es una actividad que se denomina segmentación, es importante saber que los productos mobiliarios, al igual que la ropa, tienen un público o clientes en particular; a este conglomerado de personas o clientes, se denomina mercado.
+    p.my-2 El estudio y diferenciación de los tipos de clientes, es una actividad que se denomina <b>segmentación</b>, es importante saber que los productos mobiliarios, al igual que la ropa, tienen un público o clientes en particular; a este conglomerado de personas o clientes, se denomina <b></b>mercado.
 
-    .titulo-segundo.color-acento-contenido.pb-2
+    .titulo-segundo.color-acento-contenido.pt-3
       h2 7.1 Dibujo y recreación de ambientes
 
-    p.my-2 El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. Algunas de las técnicas para esta actividad  son:
+    p.pb-3 El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. Algunas de las técnicas para esta actividad  son:
 
     
-      .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+      .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.text-white
         .row
           .col-lg-6
             figure.col-6
@@ -32,7 +32,7 @@
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
-                    |Indiferenciada: hace referencia a la oferta y muestra masiva del producto; esto, con el propósito de conseguir la mayor cantidad de clientes.
+                  | Indiferenciada: hace referencia a la oferta y muestra masiva del producto; esto, con el propósito de conseguir la mayor cantidad de clientes.
                 li
               ul.lista-ul
                 li 
@@ -49,14 +49,12 @@
                   i.lista-ul__vineta
                   | Uno a uno (1 a 1): es la estrategia de segmentación más personalizada, está dirigida específicamente a clientes individuales.
                 li
-          .col-lg-6
+          .col-lg-6.color-secundario
             figure.col-lg-6
               img(src="@/assets/curso/temas/tema7/img-2.png")
             h3 Posicionamiento o branding: 
             .col-11.mx-4
               p Esta estrategia se enfoca en el posicionamiento de una marca, al punto de que genere una recordación mental y permanente en el cliente en función de los atributos de la marca y sus productos.
-
-    
 
     p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
 
@@ -74,15 +72,35 @@
           figure
             img(src="@/assets/curso/temas/tema7/img-3.png")
       .col-lg-12.my-4
-          p En cualquier proceso administrativo debe existir un gerente o responsable, que tenga conocimiento global o específico del objeto de la empresa o negocio; por ejemplo, para el caso del mobiliario, conocer sobre madera, precios asociados a las materias primas y herramientas, tipos de procesos que se llevan a cabo para la fabricación de productos, finanzas, marketing y ventas.
+          p En cualquier proceso administrativo debe existir un <b>gerente</b> o responsable, que tenga conocimiento global o específico del objeto de la empresa o negocio; por ejemplo, para el caso del mobiliario, conocer sobre madera, precios asociados a las materias primas y herramientas, tipos de procesos que se llevan a cabo para la fabricación de productos, finanzas, marketing y ventas.
 
-          p De acuerdo a lo señalado anteriormente, la administración requiere que quien ejerce la función de encargado o administrador, cumpla con una serie de requisitos; a estos requisitos se le denomina perfil. El perfil, es el compendio de aptitudes y actitudes que de acuerdo al tipo de organización, empresa o proyecto que se administre, se requieren para el éxito y sostenibilidad del mismo.
+          p De acuerdo a lo señalado anteriormente, la administración requiere que quien ejerce la función de encargado o administrador, cumpla con una serie de requisitos; a estos requisitos se le denomina <b>perfil</b>. El perfil, es el compendio de aptitudes y actitudes que de acuerdo al tipo de organización, empresa o proyecto que se administre, se requieren para el éxito y sostenibilidad del mismo.
 
     p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
-  
 
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+        h2.text-center
+        p
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+        h2.text-center
+        p
+      .col-md.tarjeta.color-acento-contenido.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+        h2.text-center
+        p
 
-    
 </template>
 <script>
 export default {
