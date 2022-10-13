@@ -5,11 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Titulo de primer nivel
+      h1 Dibujo de cuerpos con volumen, vistas e isométricos
 
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 5. Dibujo de cuerpos con volumen, vistas e isométricos 
- 
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.py-4

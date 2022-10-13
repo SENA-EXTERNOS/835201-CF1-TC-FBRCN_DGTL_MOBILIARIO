@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Titulo de primer nivel
-
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 6.Elementos y procesos del diseño
+      h1 Elementos y procesos del diseño
 
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
       .row.justify-content-end.align-items-center
@@ -22,7 +19,7 @@
     .separador.p-3
 
     .titulo-segundo.color-acento-contenido.pb-2
-      h2 6.1 Dibujo y recreación de ambientes
+      h2#t_6_1 6.1 Dibujo y recreación de ambientes
 
     p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
 
@@ -70,7 +67,7 @@
     .separador.my-5
 
     .titulo-segundo.color-acento-contenido.pb-3
-      h2 6.2 Materiales metálicos y accesorios.
+      h2#t_6_2 6.2 Materiales metálicos y accesorios.
 
     p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
 

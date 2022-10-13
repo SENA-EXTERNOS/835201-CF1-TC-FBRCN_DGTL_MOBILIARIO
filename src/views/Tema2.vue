@@ -35,7 +35,7 @@
           .col-auto.px-3
           a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
             span.me-1 Nota
-            <i class="fas fa-angle-right"></i>
+            <i class="fas fa-bookmark"></i>
     .row.justify-content-center
       .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
         .row.align-items-center.justify-content-between

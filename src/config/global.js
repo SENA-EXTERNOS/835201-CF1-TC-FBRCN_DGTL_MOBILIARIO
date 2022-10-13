@@ -76,7 +76,7 @@ export default {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: `6. Elementos y procesos del diseño`,
+        titulo: `Elementos y procesos del diseño`,
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -110,7 +110,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: 'Introducción a la administración',
-            hash: 't_2_2',
+            hash: 't_7_2',
           },
         ],
       },

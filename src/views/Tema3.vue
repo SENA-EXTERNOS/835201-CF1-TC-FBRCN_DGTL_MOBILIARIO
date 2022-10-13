@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
-
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 3. Geometría básica e introducción al sketch
+      h1 Geometría básica e introducción al sketch
 
     p La geometría es una rama de las matemáticas que se encarga de estudiar la relación y propiedades entre las medidas y formas de las figuras representadas en el plano (dos dimensiones) y el espacio (tres dimensiones). 
 
@@ -18,7 +15,7 @@
 
     a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
       span.me-1 <b>Nota</b>
-      <i class="fas fa-angle-right"></i>
+      <i class="fas fa-bookmark"></i>
 
     .row.my-4
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -73,7 +70,7 @@
         p Figura 1. Polígonos
       .col-8
         figure
-          img(src='@/assets/curso/temas/tema3/poligonos.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/poligonos.png')
    
     .col-lg-8.my-5
         .cajon.color-primario.p-4.mb-4
@@ -97,44 +94,27 @@
 
       p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
 
-    .row.my-4
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
-        .bloque-texto-g__img.color-gris.img-cover(data-aos="fade-left")(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-5.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante, normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros, y se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
-
-    .row.my-4
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
-        .bloque-texto-g__img.color-gris(data-aos="fade-right")(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-6.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el sketch o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
-
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-5.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0
-
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          h2.mb-0 Whatever can be captured in words can be conquered with understanding.
-        .col-lg-8
+        .col-lg-5.mb-4.mb-lg-0
+          figure(data-aos="fade-left")
+            img(src='@/assets/curso/temas/tema3/img-5.png')
+        .col-lg-7
           .bloque-texto-a__texto.p-4
-            p Think about all the possibilities. A good composition is the
+            p El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante, normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros, y se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
 
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          h2.mb-0 Whatever can be captured in words can be conquered with understanding.
-        .col-lg-8
+        .col-lg-5.mb-4.mb-lg-0
+          figure(data-aos="fade-right")
+            img(src='@/assets/curso/temas/tema3/img-6.png')
+        .col-lg-7
           .bloque-texto-a__texto.p-4
-            p Think about all the possibilities. A good composition is the
+            p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el sketch o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
+
+
+  
+     
 </template>
 
 <script>

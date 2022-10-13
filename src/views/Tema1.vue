@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 1. Introducción al diseño
+      h1 Introducción al diseño
 
     .row
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
@@ -29,7 +26,7 @@
             p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales o ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio y descanso</b> de las personas y, recientemente, muy posicionado, para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo </b>juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios. 
     .separador.p-3
     .titulo-segundo.color-acento-contenido.pb-2
-      h2 1.1. Teoría del color
+      h2#t_1_1 1.1. Teoría del color
 
     p El diseño de mobiliario, al igual que el diseño en otras categorías, depende en gran medida de la comprensión que existe entre los colores de los productos que se quieren producir o fabricar y su relación con el <b>entorno</b>. Visualmente, el cerebro humano establece relaciones entre tonalidades que producen distintas sensaciones como: complacencia, frescura, calor, alegría, tristeza, calidez, etc. Este tipo de asociaciones están dadas a partir de la denominada <b>gama de colores</b> o <b>escala cromática</b> que el ojo humano es capaz de percibir.
     br
@@ -58,14 +55,18 @@
 
     .row.mb-5
       .col-lg-6
-        .cajon-b.color-primario.p-3.mb-5
+        .cajon-b.color-acento-contenido.p-3.mb-5
           p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: red, yellow, blue. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores. 
             br
             br
             | Si bien son ampliamente usados en las artes plásticas, en el diseño digital de mobiliario que se estudiará a lo largo de estas unidades, los colores <b>rojo, verde</b> y <b>azul</b>, hacen referencia a los <b>primarios de la luz</b>, pues son los <b></b>tonos percibidos por el ojo humano en los dispositivos que funcionan con emisiones luminosas (pantallas). Estos, en función de su saturación (cantidad), generan los colores apreciables en este tipo de dispositivos. La combinación de los mismos, genera el color blanco, pero ante la ausencia de estos, el ojo humano percibe el color negro, pues no hay emisión de luz.
       .col-lg-6
-        .cajon-b.color-primario.p-3.mb-5
-          p.mb-0 Los <b>colores primarios CMYK</b>, denominados así por sus siglas en inglés cian, magenta, yellow, key (cian, magenta, amarillo, negro), son los colores primarios que normalmente se utilizan en los procesos de <b>impresión</b> en formatos planos, es decir, son los que se utilizan en imprentas, impresoras y demás procesos de impresión convencionales; la combinación entre ellos, es lo que genera la gama de colores que podemos apreciar en impresiones de pequeño, mediano y gran formato.
+        .bloque-texto-d.color-acento-contenido.p-4
+          .bloque-texto-d__texto.mb-2
+            h3.text-regular.mb-0 Los <b>colores primarios CMYK</b>, denominados así por sus siglas en inglés cian, magenta, yellow, key (cian, magenta, amarillo, negro), son los colores primarios que normalmente se utilizan en los procesos de <b>impresión</b> en formatos planos, es decir, son los que se utilizan en imprentas, impresoras y demás procesos de impresión convencionales; la combinación entre ellos, es lo que genera la gama de colores que podemos apreciar en impresiones de pequeño, mediano y gran formato.
+
+
+      
       br
       p.pb-2 Uso de los colores en diferentes entornos
     SlyderA.color-gris(tipo="b")
@@ -107,11 +108,11 @@
       .col-lg-6 
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/c26mGXek6Fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .col-lg-6 
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5Q3x-PxmSVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mt-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
@@ -173,7 +174,9 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MZaLzNdNcOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+        
 </template>
 
 <script>

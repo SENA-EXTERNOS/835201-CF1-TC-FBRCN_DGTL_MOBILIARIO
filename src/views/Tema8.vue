@@ -5,9 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Desarrollo de contenido 
-    .titulo-segundo.color-acento-contenido
-      h2 8. Tendencias de diseño mobiliario
+      h1 Tendencias de diseño mobiliario
 
     p Las tendencias en el diseño mobiliario han estado enmarcadas de acuerdo a los períodos de la humanidad y las sociedades. No existe una única línea en la historia del diseño mobiliario que pueda ser asumida como concreta o de referencia, pues el diseño es un proceso, como se revisó antes, depende del arte y la capacidad de recreación del diseñador o proyectista. Así pues, las culturas occidentales, orientales, escandinavas o asiáticas, tendrán percepciones distintas y subjetivas en función de sus épocas historias.
       

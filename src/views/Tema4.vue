@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Titulo de primer nivel
-
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2 4. Dibujo con perspectivas, utilización de uno y más puntos de fuga
+      h1 Dibujo con perspectivas, utilización de uno y más puntos de fuga
 
     p La perspectiva en el dibujo es la técnica que le permite al diseñador o proyectista trasmitirle al espectador la sensación de profundidad o un espacio de tres dimensiones en una ilustración, boceto o creación en un recurso plano como una hoja.
 
@@ -24,7 +21,7 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Visual ")
         p Es una línea imaginaria que parte de los ojos del espectador y se dirige al infinito.
-      div(titu lo="Línea de horizonte")
+      div(titulo="Línea de horizonte")
         p Es una línea horizontal que atraviesa el cuadro del dibujo por el punto de intersección con la visual.
       div(titulo="Base del espectador ")
         p Punto en el plano de tierra sobre el que se encuentra el observador.
@@ -77,22 +74,14 @@
           figure
             img(src='@/assets/curso/temas/tema4/img-5.png')
 
-    a.mx-4.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-      span.me-1 Nota
-      <i class="fas fa-bookmark"></i>
+    
 
-    //- #modal.titulo-segundo.color-acento-botones
-    //-   h2 Modal
-
-    //- .row
-    //-   .col-auto
-    //-     a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
-    //-       span Abrir modal
-    //-       .indicador--click(v-if="mostrarIndicador")
-    //-   .col
-    //-     p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
-    //-       a.lnk(@click="modal1 = true") Abrir modal 
-    //-       |the height of your stature, it’s the heft of your spirit.
+    .row
+      .col-auto
+        a.mx-4.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+          span.me-1 Nota
+          <i class="fas fa-bookmark"></i>
+          .indicador--click(v-if="mostrarIndicador")
 
     //- ModalA(:abrir-modal.sync="modal1")
     //-   .row.align-items-center
