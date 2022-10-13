@@ -42,19 +42,20 @@
 
     em Way, M. (1991) Dibujo con perspectivas, utilización de uno y más puntos de fuga.
 
-    .row.my-4
-      .bloque-texto-g.color-primario.p-sm-4.p-md-4
-        .bloque-texto-g__img.color-gris.img-cover(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-2.png')})`}"
-        )
-        .bloque-texto-g__texto.p-5
-          p El principio de convergencia o, como a veces se le llama, punto de fuga, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der-1
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-5.mb-4.mb-lg-0.mt-5
+          figure(data-aos="fade-right")
+            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-2.png')
+        .col-lg-7
+          .bloque-texto-a__texto.p-4
+            p El principio de convergencia o, como a veces se le llama, punto de fuga, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
 
     em.mx-5 Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.
 
     p.my-4 La utilización de <b>dos puntos de fuga</b>. En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. Para representar un objeto con dos puntos de fuga de manera sencilla, primero se establecen los ángulos que forma dicho objeto con el cuadro. 
 
-    SlyderA.color-gris.my-4.p-5(tipo="b")
+    SlyderA.color-gris.my-4.p-5.tarjeta(tipo="b")
       .row.justify-content-center.align-items-center
         .col-md-5
           p.col-lg-12.col-md-10.mt-5 Ejemplo de objeto representado con dos puntos de fuga.
@@ -74,43 +75,49 @@
           figure
             img(src='@/assets/curso/temas/tema4/img-5.png')
 
-    
-
     .row
       .col-auto
-        a.mx-4.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-          span.me-1 Nota
-          <i class="fas fa-bookmark"></i>
+        a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+          span Abrir modal
           .indicador--click(v-if="mostrarIndicador")
+      .col
+        p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
+          a.lnk(@click="modal1 = true") Abrir modal 
+          |the height of your stature, it’s the heft of your spirit.
 
-    //- ModalA(:abrir-modal.sync="modal1")
-    //-   .row.align-items-center
-    //-     .col-md-6.mb-4.mb-md-0
-    //-       h4 Modal 1
-    //-       p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-6.mb-4.mb-md-0
+          h4 Modal 1
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
-    .row.my-4
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
-        .bloque-texto-g__img.color-gris.img-cover(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-6.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p Normalmente en el dibujo o proyecciones de mobiliarios, no suelen utilizarse más de tres puntos de fuga; sin embargo, la utilización de más de dos logra trasmitir mejores efectos de profundidad a las representaciones, en caso que se llegase a requerir o implementar más de dos puntos fuga, estos suelen ser <em>perpendiculares</em> entre sí, en vista de plana (vista superior), ejemplo de estos son puertas abiertas, calles que se separan en direcciones distintas. En cualquier caso, sin importar la cantidad de puntos de fuga que se utilicen, estos siempre están sobre la línea del horizonte.
+
+
+
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der-1
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-5.mb-4.mb-lg-0.mt-5
+          figure(data-aos="fade-right")
+            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-6.png')
+        .col-lg-7
+          .bloque-texto-a__texto.p-4
+            p Normalmente en el dibujo o proyecciones de mobiliarios, no suelen utilizarse más de tres puntos de fuga; sin embargo, la utilización de más de dos logra trasmitir mejores efectos de profundidad a las representaciones, en caso que se llegase a requerir o implementar más de dos puntos fuga, estos suelen ser <em>perpendiculares</em> entre sí, en vista de plana (vista superior), ejemplo de estos son puertas abiertas, calles que se separan en direcciones distintas. En cualquier caso, sin importar la cantidad de puntos de fuga que se utilicen, estos siempre están sobre la línea del horizonte.
     
     em.mx-5 Ejemplo de dibujo con tres puntos de fuga.
 
     p.my-4 El siguiente enlace conduce a una muestra de la realización del proceso de perspectiva, utilizando una herramienta digital mediante un dispositivo móvil. Lo invito a observar el video.
 
-    a.mx-4.boton.color-acento-botones.indicador__container(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.mx-4.boton.color-acento-botones.indicador__container(href="https://www.youtube.com/watch?v=gipXIjgR9_c&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
       span.me-1 Enlace
       i.fas.fa-link
 
-  
 </template>
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema6',
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
     // variables de vue
   }),
   mounted() {

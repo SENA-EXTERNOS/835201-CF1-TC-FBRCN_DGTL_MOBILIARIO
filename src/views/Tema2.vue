@@ -7,15 +7,18 @@
         span 2
       h1 Dibujo técnico, elementos y herramientas
 
-    .row
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
-        .bloque-texto-g__img.color-gris.img-cover(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p <b>El dibujo técnico</b> es la manera en que se lleva a cabo la <b>representación gráfica,</b> plasmada generalmente en una hoja o papel, de objetos o cosas. A diferencia del dibujo libre o boceto, éste contiene la información necesaria para ser leído e interpretado por quien lo tiene en sus manos para llevar a cabo la <b>producción,</b> <b>elaboración</b> o<b> prototipado</b>. El dibujo técnico se ajusta a un conjunto de normativas y reglas bajo las cuales el proyectista o diseñador lleva a cabo la representación gráfica, la manera en la cual se escribe el texto, la acomodación de líneas, el tipo de unidades de medida, y el tipo de letra utilizada en el dibujo técnico, lo cual permite que este pueda ser interpretado universalmente.
 
-      em.my-4.mx-4 El dibujo técnico y las normas que sobre este aplican, permiten que la información para la comprensión de un diseño pueda darse de manera universal.
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0.mt-5
+          figure(data-aos="fade-right")
+            img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-1.png')
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p <b>El dibujo técnico</b> es la manera en que se lleva a cabo la <b>representación gráfica,</b> plasmada generalmente en una hoja o papel, de objetos o cosas. A diferencia del dibujo libre o boceto, éste contiene la información necesaria para ser leído e interpretado por quien lo tiene en sus manos para llevar a cabo la <b>producción,</b> <b>elaboración</b> o<b> prototipado</b>. El dibujo técnico se ajusta a un conjunto de normativas y reglas bajo las cuales el proyectista o diseñador lleva a cabo la representación gráfica, la manera en la cual se escribe el texto, la acomodación de líneas, el tipo de unidades de medida, y el tipo de letra utilizada en el dibujo técnico, lo cual permite que este pueda ser interpretado universalmente.
+
+
+    em.my-4.mx-4 El dibujo técnico y las normas que sobre este aplican, permiten que la información para la comprensión de un diseño pueda darse de manera universal.
 
     .row.justify-content-center.pt-4
       .col-lg-8
@@ -36,19 +39,19 @@
           a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
             span.me-1 Nota
             <i class="fas fa-bookmark"></i>
-    .row.justify-content-center
-      .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
-        .row.align-items-center.justify-content-between
-          .col-lg-8
-            .bloque-texto-a__texto.p-4
-              p.mb-0 Los siguientes, son algunos de los principales elementos y herramientas utilizados normalmente en el dibujo técnico:
-          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
-            figure
-              img(src="@/assets/curso/temas/tema2/img-3.png")
-        
-    p.mb-3 Para conocer más sobre las herramientas usadas en dibujo técnico, lea el documento que se encuentra a continuación.
 
-    a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-7
+          .bloque-texto-a__texto.p-4
+            p <b>El dibujo técnico</b> es la manera en que se lleva a cabo la <b>representación gráfica,</b> plasmada generalmente en una hoja o papel, de objetos o cosas.
+        .col-lg-4.mb-4.mb-lg-0.mt-5
+          figure(data-aos="fade-right")
+            img.img-250.img-cen(src='@/assets/curso/temas/tema2/img-3.png')
+        
+    p.my-4 Para conocer más sobre las herramientas usadas en dibujo técnico, lea el documento que se encuentra a continuación.
+
+    a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_01.pdf')" target="_blank" type="application/pdf")
       span Descargar
       i.fas.fa-file-download
 </template>

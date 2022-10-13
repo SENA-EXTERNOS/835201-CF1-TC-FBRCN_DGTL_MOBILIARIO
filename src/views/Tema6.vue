@@ -14,12 +14,12 @@
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
           figure
-            img(src="@/assets/curso/temas/tema6/img-1.png")
+            img.img-250.img-cen(src="@/assets/curso/temas/tema6/img-1.png")
 
     .separador.p-3
 
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2#t_6_1 6.1 Dibujo y recreación de ambientes
+    #t_6_1.titulo-segundo.color-acento-contenido.pb-2
+      h2 6.1 Dibujo y recreación de ambientes
 
     p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
 
@@ -30,11 +30,11 @@
           p.col-lg-12.col-md-7.mt-3 Son los colores que trasmiten o generan al espectador una sensación cálida. Se usa para un ambiente habitacional que pretenda trasmitir calidez y comodidad.
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema6/img-2.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-2.png')
       .row.justify-content-between
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema6/img-3.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-3.png')
         .col-md-5.mt-5
           h2 Los colores fríos  
           p.col-lg-12.col-md-7.mt-4 Son aquellos que le transmiten al espectador una sensación más fría o fresca.
@@ -44,11 +44,11 @@
           p.col-lg-12.col-md-7.mt-5 Tienen una saturación muy baja, también se describen como ligeros, algunos de ellos son usados para generar sensaciones calmantes y tranquilizantes al espectador. 
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema6/img-4.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-4.png')
       .row.justify-content-between
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema6/img-5.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-5.png')
         .col-md-6.mt-5
           h2 Los colores neutros 
           p.col-lg-12.col-md-7.mt-3 Como gris, negro y blanco han sido los tradicionalmente utilizados en los diseños de los mobiliarios de oficina.
@@ -58,7 +58,7 @@
           p.col-lg-12.col-md-7.mt-5 E incluso “ácidos”, han tomado relevancia recientemente en espacios modernos y vanguardistas.
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema6/img-6.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-6.png')
 
     a.mx-4.boton.color-acento-botones.indicador__container(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
       span.me-1 Enlace
@@ -66,8 +66,8 @@
 
     .separador.my-5
 
-    .titulo-segundo.color-acento-contenido.pb-3
-      h2#t_6_2 6.2 Materiales metálicos y accesorios.
+    #t_6_2.titulo-segundo.color-acento-contenido.pb-3
+      h2 6.2 Materiales metálicos y accesorios.
 
     p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
 
@@ -89,7 +89,7 @@
 </template>
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema6',
   data: () => ({
     // variables de vue
   }),

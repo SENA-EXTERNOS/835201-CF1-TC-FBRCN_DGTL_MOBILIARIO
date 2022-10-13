@@ -94,27 +94,24 @@
 
       p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der
       .row.m-0.align-items-center.justify-content-between
         .col-lg-5.mb-4.mb-lg-0
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema3/img-5.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-5.png')
         .col-lg-7
           .bloque-texto-a__texto.p-4
             p El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante, normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros, y se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema3/img-6.png')
         .col-lg-7
           .bloque-texto-a__texto.p-4
             p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el sketch o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
+        .col-lg-5.mb-4.mb-lg-0.mt-5
+          figure(data-aos="fade-right")
+            img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-6.png')
 
-
-  
-     
 </template>
 
 <script>

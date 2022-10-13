@@ -46,28 +46,30 @@
       .row.color-gris.justify-content-center.align-items-center
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema5/img-2.png')
-        .col-md-5
+            img.img-250.img-cen(src='@/assets/curso/temas/tema5/img-2.png')
+        .col-md-5.my-5
           p.col-lg-11.col-md-10 Ejemplo de representación de un dibujo isométrico en un plano.
       .row.color-gris.justify-content-center.align-items-center
-        .col-md-5
+        .col-md-5.mb-4
           p.col-lg-11.col-md11 Ejemplo de representación vista frontal y lateral izquierda de silla gris (arriba), vista frontal y posterior o trasera de sillón gris (abajo).
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema5/img-3.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema5/img-3.png')
 
 
     p En el video relacionado a continuación, y mediante el uso de un programa tipo CAD, se profundizan y ejemplifican más detalladamente, los conceptos de perspectiva, isométrico y vistas. 
 
-    a.mx-4.boton.color-acento-botones.indicador__container(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+    a.mx-4.boton.color-acento-botones.indicador__container(href="https://www.youtube.com/watch?v=2HNNtWVQNOs" target="_blank")
       span.me-1 Enlace
       i.fas.fa-link
+
+    
 
   
 </template>
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

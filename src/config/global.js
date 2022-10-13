@@ -2,16 +2,16 @@ export default {
   global: {
     componenteFormativo: `DISEÑO DE MOBILIARIO CON ENFOQUE A MERCADO Y CLIENTES`,
     descripcionCurso: `Componente enfocado en adquirir las competencias básicas del dibujo y diseño de prototipos de mobiliarios, tomando como referencia los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, orientado a la satisfacción de las necesidades del cliente y del mercado.`,
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/elipse-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/elipse-1.svg'),
       },
     ],
   },
@@ -69,7 +69,7 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: `Dibujo de cuerpos con volumen, vistas e isométricos `,
+        titulo: `Dibujo de cuerpos con volumen, vistas e isométricos`,
         desarrolloContenidos: true,
       },
       {
@@ -164,32 +164,100 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Dibujo técnico, elementos y herramientas',
+      referencia: `Departamento de Tecnología IES (2019) Tema 2 Expresión gráfica y dibujo técnico. `,
+      tipo: `Documento que reúne el compendio de elementos y normas que hacen parte del dibujo técnico.`,
+      link: `https://www3.gobiernodecanarias.org/medusa/ecoblog/dtrugar/files/2019/11/02-expresion-grafica-y-dibujo-tecnico.pdf`,
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: `Geometría básica e introducción al sketch`,
+      referencia: `Marín, M. (2013). Guía práctica de geometría área y perímetro de figuras.`,
+      tipo: `Guía para el estudio y manejo de figuras geométricas planas, propiedades y ejercicios.`,
+      descarga: `https://lasmatematicasgaitanistas.files.wordpress.com/2020/03/guc3ada-de-geometrc3ada-c3a1rea-y-perc3admetro-3.pdf
+
+      `,
+    },
+    {
+      tema: `Dibujo con perspectivas, utilización de uno y más puntos de fuga`,
+      referencia: `Way, M. Omega (1991) La perspectiva en el dibujo.`,
+      tipo: `Guía para el dibujo con perspectiva`,
+      link: `https://docs.google.com/file/d/0B87HcjSh5WzccDJFTTR5NFBtVTg/edit?resourcekey=0-KpilTagDYiLSXod87s-daQ`,
+    },
+    {
+      tema: `Dibujo de cuerpos con volumen, vistas e isométricos`,
+      referencia: `Rodríguez, S. (2013) Fórmulas de área y volumen de cuerpos geométricos. Recursos de una profesora de matemáticas de la enseñanza pública.`,
+      tipo: `Fórmulas de área y volumen de cuerpos geométricos.`,
+      link: `http://www.srbarreiro.es/Apuntes/DosESO/Geometria/TablaAreasVolumenes.pdf`,
+    },
+    {
+      tema: `Cliente y mercado`,
+      referencia: `Armstrong, G., Kotler, P. (2013) Fundamentos del marketing. `,
+      tipo: `Libro de consulta.`,
+      link: `https://frrq.cvg.utn.edu.ar/pluginfile.php/14584/mod_resource/content/1/Fundamentos%20del%20Marketing-Kotler.pdf`,
+    },
+    {
+      tema: `Cliente y mercado`,
+      referencia: `Universidad Nacional Autónoma de México, Facultad de contaduría y administración, División del sistema Universidad abierta. (2003) Apuntes para la asignatura administración básica 1. `,
+      tipo: `Tutorial`,
+      link: `http://fcasua.contad.unam.mx/apuntes/interiores/docs/98/1/admon_bas1.pdf`,
+    },
+    {
+      tema: `Ergonomía y anatomía básica`,
+      referencia: `Iglesias, F. (s/f). Ergonomía y Salud en los entornos de oficina.`,
+      tipo: `Manual`,
+      link: `https://www.jmcprl.net/PUBLICACIONES/F06/ERGO%20OFICINA/Ergo%20Oficina.pdf`,
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Administración:',
+      significado: `es la disciplina que estudia el uso óptimo de los recursos en una organización, empresa o negocio.`,
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: `Boceto`,
+      significado: `esquema o proyecto que contiene solamente los rasgos principales de una obra artística o técnica.`,
+    },
+    {
+      termino: `Cliente:`,
+      significado: `unión de varias líneas en un punto.`,
+    },
+    {
+      termino: `Convergencia`,
+      significado: `unión de varias líneas en un punto.`,
+    },
+    {
+      termino: `Cuantificar`,
+      significado: `expresar numéricamente una magnitud.`,
+    },
+    {
+      termino: `Ergonomía`,
+      significado: `estudia la relación que existe de un objeto, vehículo o herramientas con las condiciones y características físicas, anatómicas y psicológicas del que las va a usar`,
+    },
+    {
+      termino: `Escala`,
+      significado: `relación que existe entre las magnitudes que tiene un dibujo y las dimensiones reales del objeto. Se representa con un cociente (división) entre dos números, donde el numerador expresa una dimensión en el dibujo y el denominador, la correspondiente en la realidad.`,
+    },
+    {
+      termino: `Mercado`,
+      significado: `conjunto de compradores potenciales de una mercancía o servicio.`,
+    },
+    {
+      termino: `Resina:`,
+      significado: `sustancia orgánica de consistencia pastosa, pegajosa, transparente o translúcida, que se solidifica en contacto con el aire; es de origen vegetal o se obtiene artificialmente mediante reacciones de polimerización.`,
+    },
+    {
+      termino: `Textura`,
+      significado: `forma en que están entrelazadas las fibras de un tejido, lo que produce una sensación táctil o visual.`,
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: `Way, M. (1991). Dibujo con perspectivas, utilización de uno y más puntos de fuga, Barcelona, Ediciones Omega.`,
       link: '',
+    },
+    {
+      referencia: `Escuela de diseño de Madrid (s/f). ¿Qué es el diseño de arquitectura?`,
+      link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
     },
   ],
   creditos: {

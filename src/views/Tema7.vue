@@ -11,8 +11,8 @@
 
     p.my-2 El estudio y diferenciación de los tipos de clientes, es una actividad que se denomina <b>segmentación</b>, es importante saber que los productos mobiliarios, al igual que la ropa, tienen un público o clientes en particular; a este conglomerado de personas o clientes, se denomina <b></b>mercado.
 
-    .titulo-segundo.color-acento-contenido.pt-3
-      h2#t_7_1 7.1 Dibujo y recreación de ambientes
+    #t_7_1.titulo-segundo.color-acento-contenido.pt-3
+      h2 7.1 Dibujo y recreación de ambientes
 
     p.pb-3 El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. Algunas de las técnicas para esta actividad  son:
 
@@ -58,8 +58,8 @@
 
     .separador.p-3.my-4
 
-    .titulo-segundo.color-acento-contenido.pb-2
-      h2#t_7_2 7.2. Introducción a la administración
+    #t_7_2.titulo-segundo.color-acento-contenido.pb-2
+      h2 7.2. Introducción a la administración
 
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
       .row.justify-content-end.align-items-center
@@ -80,7 +80,7 @@
 </template>
 <script>
 export default {
-  name: 'Tema4',
+  name: 'Tema7',
   data: () => ({
     // variables de vue
   }),
