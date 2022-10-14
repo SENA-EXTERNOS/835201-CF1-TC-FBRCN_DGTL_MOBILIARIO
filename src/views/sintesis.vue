@@ -3,8 +3,9 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-secundario
-      h5 Diseño de mobiliario con enfoque a mercado y cliente
+    .titulo-sexto.color-secundario.linea-1.pb-0
+        h5.mt-1 Diseño de mobiliario con enfoque a mercado y cliente
+        br
         p Diseño de mobiliario con enfoque a mercado y cliente
 
 
@@ -16,15 +17,6 @@
       .col-lg-10.mb-5.pt-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-
-    .col-auto
-      a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-        .anexo__icono
-          img(src="@/assets/template/icono-pdf.svg")
-        .anexo__texto
-          p Anexo. Síntesis
-
-    
 
 </template>
 

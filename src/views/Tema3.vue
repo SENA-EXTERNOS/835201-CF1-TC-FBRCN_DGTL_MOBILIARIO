@@ -13,9 +13,17 @@
 
     p Observe la derivación de su composición.
 
-    a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-      span.me-1 <b>Nota</b>
-      <i class="fas fa-bookmark"></i>
+    .row
+      .col-auto
+        a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+          span Nota
+          <i class="fas fa-bookmark"></i>
+          .indicador--click(v-if="mostrarIndicador")
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-12.mb-4.mb-md-0 
+          p La comprensión de la relación que existe entre propiedades como el área, el perímetro y el volumen, ayudan a entender y proyectar diseños constructivos de mobiliarios a partir de la construcción, permitiendo obtener medidas y relaciones en la determinación de cantidad de material a utilizar y la creación de presupuestos para establecer precios de venta o comercialización.
 
     .row.my-4
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -118,6 +126,8 @@
 export default {
   name: 'Tema3',
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
     // variables de vue
   }),
   mounted() {

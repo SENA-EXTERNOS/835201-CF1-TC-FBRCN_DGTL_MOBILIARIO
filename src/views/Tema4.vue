@@ -12,7 +12,7 @@
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last
-          h4.pt-5 Introducción
+          h4.col-md-pt-5 Introducción
           p El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
@@ -55,44 +55,38 @@
 
     p.my-4 La utilización de <b>dos puntos de fuga</b>. En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. Para representar un objeto con dos puntos de fuga de manera sencilla, primero se establecen los ángulos que forma dicho objeto con el cuadro. 
 
-    SlyderA.color-gris.my-4.p-5.tarjeta(tipo="b")
+    SlyderA.color-gris.tarjeta(tipo="b")
       .row.justify-content-center.align-items-center
         .col-md-5
-          p.col-lg-12.col-md-10.mt-5 Ejemplo de objeto representado con dos puntos de fuga.
-        .col-md-5
+          p.col-lg-12.col-md-10.mx-5 Ejemplo de objeto representado con dos puntos de fuga.
+        .col-lg-5
           figure
-            img(src='@/assets/curso/temas/tema4/img-3.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-3.png')
       .row.color-gris.justify-content-center.align-items-center
-        .col-md-5
+        .col-md-6.mt-5
           figure
-            img(src='@/assets/curso/temas/tema4/img-4.png')
+            img.img-250.img-cen.mb-4(src='@/assets/curso/temas/tema4/img-4.png')
         .col-md-5
-          p.col-lg-10.col-md-10 Ejemplo de varios objetos representados con dos puntos de fuga.
+          p.col-lg-10.col-md-10.mx-5 Ejemplo de varios objetos representados con dos puntos de fuga.
       .row.color-gris.justify-content-center.align-items-center
-        .col-md-5
-          p.col-lg-10.col-md-10 Ejemplo de un sketch representado con dos puntos de fuga.
+        .col-md-6
+          p.col-lg-10.col-md-10.mx-5 Ejemplo de un sketch representado con dos puntos de fuga.
         .col-md-5
           figure
-            img(src='@/assets/curso/temas/tema4/img-5.png')
+            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-5.png')
 
     .row
-      .col-auto
+      .col-auto.my-4
         a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-          span Abrir modal
+          span Nota
+          <i class="fas fa-bookmark"></i>
           .indicador--click(v-if="mostrarIndicador")
-      .col
-        p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
-          a.lnk(@click="modal1 = true") Abrir modal 
-          |the height of your stature, it’s the heft of your spirit.
 
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
-          h4 Modal 1
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-
+          h4 
+          p 
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der-1
       .row.m-0.align-items-center.justify-content-between

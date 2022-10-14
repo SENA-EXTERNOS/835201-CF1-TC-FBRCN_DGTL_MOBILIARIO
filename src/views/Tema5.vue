@@ -14,7 +14,7 @@
           p El volumen es la propiedad o medida que tienen los cuerpos en el espacio. En el diseño de mobiliario es muy importante tener en cuenta esta propiedad, pues limita y condiciona la utilización de los mismos en espacios o ambientes del cliente.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
-          figure
+          figure(data-aos="fade-right")
             img(src="@/assets/curso/temas/tema5/img-1.png")
               
     .col-lg-8.my-5
@@ -23,9 +23,9 @@
     .row.justify-content-end      
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4.color-gris
-         p Al hablar de cuerpos con volumen encontramos intrínsecamente el término <b>capacidad</b>, que hace referencia a lo que cabe dentro de un espacio. En el mobiliario se vuelve un factor importante, pues hay productos o construcciones diseñados y construidos con este propósito exclusivamente, por ejemplo, los armarios, archivadores, cómodas, mesas de noche, entre otros.
+        p Al hablar de cuerpos con volumen encontramos intrínsecamente el término <b>capacidad</b>, que hace referencia a lo que cabe dentro de un espacio. En el mobiliario se vuelve un factor importante, pues hay productos o construcciones diseñados y construidos con este propósito exclusivamente, por ejemplo, los armarios, archivadores, cómodas, mesas de noche, entre otros.
 
-         p La capacidad o medida de volumen de un cuerpo está dada en función de la altura de la figura plana, proyectada en el espacio, por ejemplo, una gaveta de un mueble de cocina es una proyección de un rectángulo en el espacio, así mismo, un armario, el cual se puede referenciar como un rectángulo en el piso proyectado o extendido en el espacio (hacia arriba).
+        p La capacidad o medida de volumen de un cuerpo está dada en función de la altura de la figura plana, proyectada en el espacio, por ejemplo, una gaveta de un mueble de cocina es una proyección de un rectángulo en el espacio, así mismo, un armario, el cual se puede referenciar como un rectángulo en el piso proyectado o extendido en el espacio (hacia arriba).
 
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
@@ -42,7 +42,7 @@
       div(titulo="Vista posterior")
         p Si se requiere o necesita la proyección de esta vista, corresponde a la cara posterior del isométrico; al igual que las vistas laterales izquierda y derecha, es perpendicular a la cara del isométrico.
 
-    SlyderA.color-gris.my-4.p-5(tipo="b")
+    SlyderA.tarjeta.color-gris.my-4.p-5(tipo="b")
       .row.color-gris.justify-content-center.align-items-center
         .col-md-5
           figure
@@ -63,9 +63,6 @@
       span.me-1 Enlace
       i.fas.fa-link
 
-    
-
-  
 </template>
 <script>
 export default {
