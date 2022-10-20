@@ -13,7 +13,7 @@
 
     p Observe la derivación de su composición.
 
-    .row
+    .row.mb-5
       .col-auto
         a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
           span Nota
@@ -71,21 +71,21 @@
 
           p.text-small Los ángulos son espacios o regiones comprendidas entre un par de lados.
           
-    p.my-4 Los polígonos se dividen en función del número de lados:
+    p.my-4.mb-5 Los polígonos se dividen en función del número de lados:
     
     .row.justify-content-center
       .titulo-sexto.color-secundario
         p Figura 1. Polígonos
       .col-8
-        figure
+        figure.mb-5
           img(src='@/assets/curso/temas/tema3/poligonos.png')
    
-    .col-lg-8.my-5
-        .cajon.color-primario.p-4.mb-4
+    .col-lg-8.mb-5
+        .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
           p Las anteriores figuras geométricas son las más utilizadas en la composición de diseños de mobiliarios, además del círculo o circunferencia. Una vez identificadas las principales figuras geométricas planas y polígonos, es importante conocer los conceptos de <b>perímetro</b> y <b>área</b>:
     .row.justify-content-end    
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.mb-4.color-gris
+        .cajon.color-acento-contenido.p-4.mb-4.color-gris(data-aos="fade-left")
           ul.lista-ul
             li 
               i.lista-ul__vineta
@@ -96,9 +96,9 @@
               i.lista-ul__vineta
               | Área: corresponde a la medida de la superficie que la figura ocupa. Con base en esto, cada polígono o figura geométrica plana, tiene una ecuación o procedimiento para establecer la magnitud de su área. Se recomienda leer el documento citado en las referencias y llevar a cabo los ejercicios referenciados para adquirir práctica y destreza en la determinación de áreas.   
             li
-    .row
+    .row.mb-5
 
-      <b><h4>Sketch</h4></b>
+      h3 Sketch
 
       p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
 

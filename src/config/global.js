@@ -173,9 +173,7 @@ export default {
       tema: `Geometría básica e introducción al sketch`,
       referencia: `Marín, M. (2013). Guía práctica de geometría área y perímetro de figuras.`,
       tipo: `Guía para el estudio y manejo de figuras geométricas planas, propiedades y ejercicios.`,
-      descarga: `https://lasmatematicasgaitanistas.files.wordpress.com/2020/03/guc3ada-de-geometrc3ada-c3a1rea-y-perc3admetro-3.pdf
-
-      `,
+      link: `https://lasmatematicasgaitanistas.files.wordpress.com/2020/03/guc3ada-de-geometrc3ada-c3a1rea-y-perc3admetro-3.pdf`,
     },
     {
       tema: `Dibujo con perspectivas, utilización de uno y más puntos de fuga`,
@@ -210,16 +208,8 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Administración:',
-      significado: `es la disciplina que estudia el uso óptimo de los recursos en una organización, empresa o negocio.`,
-    },
-    {
       termino: `Boceto`,
       significado: `esquema o proyecto que contiene solamente los rasgos principales de una obra artística o técnica.`,
-    },
-    {
-      termino: `Cliente:`,
-      significado: `unión de varias líneas en un punto.`,
     },
     {
       termino: `Convergencia`,
@@ -240,10 +230,6 @@ export default {
     {
       termino: `Mercado`,
       significado: `conjunto de compradores potenciales de una mercancía o servicio.`,
-    },
-    {
-      termino: `Resina:`,
-      significado: `sustancia orgánica de consistencia pastosa, pegajosa, transparente o translúcida, que se solidifica en contacto con el aire; es de origen vegetal o se obtiene artificialmente mediante reacciones de polimerización.`,
     },
     {
       termino: `Textura`,

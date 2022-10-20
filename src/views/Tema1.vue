@@ -20,18 +20,17 @@
 
             p Todo producto que puede ser adquirido por un cliente, ha sido creado a partir de ideas que se plasmaron en un papel.
 
-
     .row.justify-content-center.pt-4
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.mb-4.color-gris
+        .cajon.color-acento-contenido.p-4.mb-4.color-gris.mb-5(data-aos="fade-right")
             p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales o ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio y descanso</b> de las personas y, recientemente, muy posicionado, para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo </b>juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios. 
-    .separador.p-3
+    .separador.p-3.mb-5
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
       h2 1.1. Teoría del color
 
     p El diseño de mobiliario, al igual que el diseño en otras categorías, depende en gran medida de la comprensión que existe entre los colores de los productos que se quieren producir o fabricar y su relación con el <b>entorno</b>. Visualmente, el cerebro humano establece relaciones entre tonalidades que producen distintas sensaciones como: complacencia, frescura, calor, alegría, tristeza, calidez, etc. Este tipo de asociaciones están dadas a partir de la denominada <b>gama de colores</b> o <b>escala cromática</b> que el ojo humano es capaz de percibir.
     br
-    p Para comprender el concepto de gama de colores o escala cromática, es indispensable conocer algunas definiciones:
+    p.mb-5 Para comprender el concepto de gama de colores o escala cromática, es indispensable conocer algunas definiciones:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Colores primarios")
@@ -53,14 +52,13 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-color-terciario.png')
 
-
     .row.mb-5
       .col-lg-6
         .cajon-b.color-acento-contenido.p-3.mb-5
           p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: red, yellow, blue. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores. 
             br
             br
-            | Si bien son ampliamente usados en las artes plásticas, en el diseño digital de mobiliario que se estudiará a lo largo de estas unidades, los colores <b>rojo, verde</b> y <b>azul</b>, hacen referencia a los <b>primarios de la luz</b>, pues son los <b></b>tonos percibidos por el ojo humano en los dispositivos que funcionan con emisiones luminosas (pantallas). Estos, en función de su saturación (cantidad), generan los colores apreciables en este tipo de dispositivos. La combinación de los mismos, genera el color blanco, pero ante la ausencia de estos, el ojo humano percibe el color negro, pues no hay emisión de luz.
+          p Si bien son ampliamente usados en las artes plásticas, en el diseño digital de mobiliario que se estudiará a lo largo de estas unidades, los colores <b>rojo, verde</b> y <b>azul</b>, hacen referencia a los <b>primarios de la luz</b>, pues son los <b></b>tonos percibidos por el ojo humano en los dispositivos que funcionan con emisiones luminosas (pantallas). Estos, en función de su saturación (cantidad), generan los colores apreciables en este tipo de dispositivos. La combinación de los mismos, genera el color blanco, pero ante la ausencia de estos, el ojo humano percibe el color negro, pues no hay emisión de luz.
       .col-lg-6
         .bloque-texto-d.color-acento-contenido.p-4.color-float
           .bloque-texto-d__texto.mb-2
@@ -96,20 +94,20 @@
     .row.justify-content-evenly.align-items-center.mt-5
       .col-lg-3
         p Círculo cromático escalonado de 12 colores.
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/circulo-escalonado.png')
       .col-lg-3
         p Círculo cromático degradado.
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema1/circulo-degradado.png')
     .row.justify-content-evenly.align-items-center.mt-5.pb-5
       p.p-3 Si desea ampliar su conocimiento sobre la teoría del color, explore estos videos recomendados del material complementario: 
-      .col-lg-6 
+      .col-lg-6.mb-4 
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/c26mGXek6Fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .col-lg-6 
-        figure
+        figure.mb-4
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5Q3x-PxmSVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -124,8 +122,8 @@
           
             p Como es de entenderse, al igual que el hombre, el diseño y la arquitectura han evolucionado en función de las necesidades a cubrir en las distintas épocas o etapas de desarrollo de la humanidad. En la actualidad, a diferencia de varios siglos atrás, el diseño no solo se limita al hecho práctico y funcional, sino a la <b>armonía</b> y al <b>sentido artístico</b>; esto, sin embargo, no deja de lado las consideraciones <b>funcionales</b> sobre las cuales se fundamenta una idea inicial.
 
-    em.mx-5.pt-4.pb-3 La arquitectura y el diseño de mobiliario van de la mano, el diseño de mobiliario complementa, transforma y en muchas ocasiones condiciona la arquitectura de proyectos de construcción.
-
+    p.mb-5.ms-5 <em> La arquitectura y el diseño de mobiliario van de la mano, el diseño de mobiliario complementa, transforma y en muchas ocasiones condiciona la arquitectura de proyectos de construcción.</em>
+    
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
@@ -135,7 +133,7 @@
           figure(data-aos="fade-right")
             img.img-250.img-cen(src='@/assets/curso/temas/tema1/tarjeta-f3.png')
 
-    em.mx-5.pt-4.pb-3 Muchas de las actividades y momentos más importantes de las personas tienen como elementos importantes el mobiliario dispuesto en los espacios de ocio, familia y disfrute de las personas.
+    p.mb-5.ms-5 <em> Muchas de las actividades y momentos más importantes de las personas tienen como elementos importantes el mobiliario dispuesto en los espacios de ocio, familia y disfrute de las personas.</em>
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
@@ -146,7 +144,7 @@
           figure(data-aos="fade-right")
             img.img-250.img-cen(src='@/assets/curso/temas/tema1/tarjeta-f4.png')
 
-    em.mx-5.pt-4 El mobiliario cumple un papel importante en el relacionamiento social de las personas, en especial en espacios abiertos.
+    p.mb-5.ms-5 <em>El mobiliario cumple un papel importante en el relacionamiento social de las personas, en especial en espacios abiertos.</em>
 
     AcordionA.my-4(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="La seguridad")

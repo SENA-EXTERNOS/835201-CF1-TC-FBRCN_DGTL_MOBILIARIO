@@ -67,7 +67,7 @@
           p Es importante examinar en el diseño de producto mobiliario, cómo impacta de manera visual con el público, esto garantiza en gran medida su éxito y aceptación. En esta ocasión se revisarán los aspectos relacionados de la manera en la cual un producto puede ser mejor percibido por las personas en un ambiente en particular y los materiales y accesorios que facilitan esta mejor percepción de manera general.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
-          figure
+          figure(data-aos="fade-right")
             img(src="@/assets/curso/temas/tema7/img-3.png")
       .col-lg-12.my-4
           p En cualquier proceso administrativo debe existir un <b>gerente</b> o responsable, que tenga conocimiento global o específico del objeto de la empresa o negocio; por ejemplo, para el caso del mobiliario, conocer sobre madera, precios asociados a las materias primas y herramientas, tipos de procesos que se llevan a cabo para la fabricación de productos, finanzas, marketing y ventas.
