@@ -24,6 +24,9 @@
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4.color-gris.mb-5(data-aos="fade-right")
             p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales o ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio y descanso</b> de las personas y, recientemente, muy posicionado, para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo </b>juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios. 
+
+    p.mb-5 Es importante tener en cuenta que, al referirse a mobiliario o “mueble”, no solo se hace referencia al objeto en el cual se puede reposar, sentarse o acostarse una persona; el término, también habla del conjunto de elementos o productos que permiten, además, la <b>distribución de artículos en espacios abiertos y cerrados en coordinación y armonía con las personas que realizan una actividad o habitan un espacio</b>. Es por esta razón que, en el caso del comercio, el diseño de stands garantiza, en gran medida, el impacto visual de un elemento que quiera ser exhibido al público para su venta, tomando gran relevancia el color y la forma.
+
     .separador.p-3.mb-5
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
       h2 1.1. Teoría del color
@@ -55,18 +58,18 @@
     .row.mb-5
       .col-lg-6
         .cajon-b.color-acento-contenido.p-3.mb-5
-          p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: red, yellow, blue. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores. 
+          p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: <em>red, yellow, blue</em>. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores. 
             br
             br
           p Si bien son ampliamente usados en las artes plásticas, en el diseño digital de mobiliario que se estudiará a lo largo de estas unidades, los colores <b>rojo, verde</b> y <b>azul</b>, hacen referencia a los <b>primarios de la luz</b>, pues son los <b></b>tonos percibidos por el ojo humano en los dispositivos que funcionan con emisiones luminosas (pantallas). Estos, en función de su saturación (cantidad), generan los colores apreciables en este tipo de dispositivos. La combinación de los mismos, genera el color blanco, pero ante la ausencia de estos, el ojo humano percibe el color negro, pues no hay emisión de luz.
       .col-lg-6
         .bloque-texto-d.color-acento-contenido.p-4.color-float
           .bloque-texto-d__texto.mb-2
-            h3.text-regular.mb-0 Los <b>colores primarios CMYK</b>, denominados así por sus siglas en inglés cian, magenta, yellow, key (cian, magenta, amarillo, negro), son los colores primarios que normalmente se utilizan en los procesos de <b>impresión</b> en formatos planos, es decir, son los que se utilizan en imprentas, impresoras y demás procesos de impresión convencionales; la combinación entre ellos, es lo que genera la gama de colores que podemos apreciar en impresiones de pequeño, mediano y gran formato.
+            h3.text-regular.mb-0 Los <b>colores primarios CMYK</b>, denominados así por sus siglas en inglés cian, magenta, <em>yellow, key</em> (cian, magenta, amarillo, negro), son los colores primarios que normalmente se utilizan en los procesos de <b>impresión</b> en formatos planos, es decir, son los que se utilizan en imprentas, impresoras y demás procesos de impresión convencionales; la combinación entre ellos, es lo que genera la gama de colores que podemos apreciar en impresiones de pequeño, mediano y gran formato.
 
       br
       p.pb-2 Uso de los colores en diferentes entornos
-    SlyderA.color-gris.tarjeta(tipo="b")
+    SlyderA.color-gris.tarjeta.mb-5(tipo="b")
       .row.justify-content-center.align-items-center
         p.col-lg-10.col-md-10.mt-5 Colores primarios empleados en las artes plásticas y apreciables en la naturaleza.
         .col-md-5
@@ -91,6 +94,9 @@
         .col-md-5
           figure
             img(src='@/assets/curso/temas/tema1/carrusel-3.png')
+
+    p.mb-5 La herramienta más utilizada a nivel general para la comprensión y mezcla de colores primarios y secundarios, es el círculo cromático; este consiste en la representación gráfica dentro de una circunferencia de los colores primarios y sus derivaciones (secundarios) en función del tono.
+
     .row.justify-content-evenly.align-items-center.mt-5
       .col-lg-3
         p Círculo cromático escalonado de 12 colores.
@@ -110,6 +116,10 @@
         figure.mb-4
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5Q3x-PxmSVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .separador.p-3.mb-5
+    #t_1_2.titulo-segundo.color-acento-contenido.pb-2
+      h2 1.2 Diseño y arquitectura
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der
       .row.m-0.align-items-center.justify-content-between

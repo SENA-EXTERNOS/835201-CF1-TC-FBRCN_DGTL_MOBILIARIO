@@ -14,7 +14,11 @@
     #t_7_1.titulo-segundo.color-acento-contenido.pt-3
       h2 7.1 Dibujo y recreación de ambientes
 
-    p.pb-3 El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. Algunas de las técnicas para esta actividad  son:
+    p El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. 
+    
+    p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
+
+    p.mb-4 Algunas de las técnicas para esta actividad  son:
 
     .tarjeta--container.row.mb-5.text-white
       .col-md.tarjeta.color-secundario.p-5
@@ -54,17 +58,17 @@
         h3.my-3.text-center Posicionamiento o branding:
         p.my-3 Esta estrategia se enfoca en el posicionamiento de una marca, al punto de que genere una recordación mental y permanente en el cliente en función de los atributos de la marca y sus productos.
 
-    p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
-
     .separador.p-3.my-4
 
     #t_7_2.titulo-segundo.color-acento-contenido.pb-2
       h2 7.2. Introducción a la administración
 
+    p.mb-5 Como se vio en el tema cliente y mercado, se debe tener un gran entendimiento sobre el tipo de cliente y el mercado al cual se van a dirigir los productos mobiliarios elaborados, además, se debe comprender cómo implementar determinados recursos con el propósito del buen funcionamiento en el manejo y desarrollo de cualquier proceso. Todo esto está relacionado en la forma en que se administra una empresa.
+
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last
-          p Es importante examinar en el diseño de producto mobiliario, cómo impacta de manera visual con el público, esto garantiza en gran medida su éxito y aceptación. En esta ocasión se revisarán los aspectos relacionados de la manera en la cual un producto puede ser mejor percibido por las personas en un ambiente en particular y los materiales y accesorios que facilitan esta mejor percepción de manera general.
+          p  La administración es la disciplina que estudia el uso óptimo de los recursos en una organización, empresa o negocio. A nivel de la industria del mobiliario, ya sea para grandes, medianas, pequeñas o emprendimientos, es importante tener en cuenta el correcto y adecuado uso de los recursos económicos, financieros, técnicos, humanos, logísticos y tecnológicos, orientados al aumento en la eficiencia de la producción.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
           figure(data-aos="fade-right")
@@ -74,7 +78,7 @@
 
           p De acuerdo a lo señalado anteriormente, la administración requiere que quien ejerce la función de encargado o administrador, cumpla con una serie de requisitos; a estos requisitos se le denomina <b>perfil</b>. El perfil, es el compendio de aptitudes y actitudes que de acuerdo al tipo de organización, empresa o proyecto que se administre, se requieren para el éxito y sostenibilidad del mismo.
 
-    p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
+    p Para profundizar en el concepto de administración, se recomienda consultar el documento referenciado en el material complementario.sky
 
     tarjeta
 </template>

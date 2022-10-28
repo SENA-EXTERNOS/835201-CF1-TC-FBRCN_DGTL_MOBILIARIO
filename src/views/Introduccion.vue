@@ -10,7 +10,7 @@
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris(data-aos="fade-left")
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last
-          p.py-5 En el desarrollo de esta primera parte del proceso de Fabricación digital de mobiliario, el aprendiz adquirirá las herramientas y habilidades básicas para llevar la generación de ideas de productos mobiliarios a propuestas plasmadas en bocetos o sketchs rápidos a mano, hasta recreaciones técnicas de productos para muestra y exposición a clientes y mercados potenciales. Para ello, tendrá en cuenta las características y requerimientos esenciales en un proceso de producción. Lo anterior se logrará comprendiendo la relación entre el diseño, la arquitectura, la ergonomía, tipos de clientes y varios métodos de marketing y de ventas de productos mobiliarios. 
+          p.py-5 En el desarrollo de esta primera parte del proceso de fabricación digital de mobiliario, el aprendiz adquirirá las herramientas y habilidades básicas para llevar la generación de ideas de productos mobiliarios a propuestas plasmadas en bocetos o <em>sketchs</em> rápidos a mano, hasta recreaciones técnicas de productos para muestra y exposición a clientes y mercados potenciales. Para ello, tendrá en cuenta las características y requerimientos esenciales en un proceso de producción. Lo anterior se logrará comprendiendo la relación entre el diseño, la arquitectura, la ergonomía, tipos de clientes y varios métodos de marketing y de ventas de productos mobiliarios. 
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
           figure

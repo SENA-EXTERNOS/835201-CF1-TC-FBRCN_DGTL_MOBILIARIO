@@ -23,10 +23,30 @@
 
     p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
 
+    .row.mb-5 
+      .col-6
+        figure(data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema6/img-02.png")
+      .col-6
+        p En el caso de los ambientes habitacionales como las casas, normalmente se encuentran tonos neutros como el blanco, sobre el cual la mayoría de colores de un mobiliario tienen buena relación. En otros casos, cuando lo que se pretende en estos tipos de espacios es generar sensaciones de reposo, tranquilidad y descanso, los colores y tonos pasteles son los más empleados, así como los colores cálidos.
+          .row.mb-5
+            .col-auto
+              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                span Nota
+                <i class="fas fa-bookmark"></i>
+                .indicador--click(v-if="mostrarIndicador")
+
+          ModalA(:abrir-modal.sync="modal1")
+            .row.align-items-center
+              .col-md-12.mb-4.mb-md-0 
+                p De acuerdo al círculo cromático, los colores cálidos se encuentran debajo de la línea horizontal negra y los fríos por encima de ésta.
+
+    p.mb-5 Algunas características especiales a tener en cuenta para el uso de los colores son:
+
     SlyderA.tarjeta.color-gris.my-4.p-5(tipo="b")
       .row.justify-content-between
         .col-md-6.mt-4
-          h2 Los colores cálidos 
+          h2 Colores cálidos 
           p.col-lg-12.col-md-7.mt-3 Son los colores que trasmiten o generan al espectador una sensación cálida. Se usa para un ambiente habitacional que pretenda trasmitir calidez y comodidad.
         .col-md-5
           figure
@@ -36,11 +56,11 @@
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-3.png')
         .col-md-5.mt-5
-          h2 Los colores fríos  
+          h2 Colores fríos  
           p.col-lg-12.col-md-7.mt-4 Son aquellos que le transmiten al espectador una sensación más fría o fresca.
       .row.justify-content-between
         .col-md-6.mt-4
-          h2 Los colores pastel 
+          h2 Colores pastel 
           p.col-lg-12.col-md-7.mt-5 Tienen una saturación muy baja, también se describen como ligeros, algunos de ellos son usados para generar sensaciones calmantes y tranquilizantes al espectador. 
         .col-md-5
           figure
@@ -50,12 +70,12 @@
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-5.png')
         .col-md-6.mt-5
-          h2 Los colores neutros 
+          h2 Colores neutros 
           p.col-lg-12.col-md-7.mt-3 Como gris, negro y blanco han sido los tradicionalmente utilizados en los diseños de los mobiliarios de oficina.
       .row.justify-content-between
         .col-md-5.mt-4
-          h2 Los tonos “vivos”, primarios 
-          p.col-lg-12.col-md-7.mt-5 E incluso “ácidos”, han tomado relevancia recientemente en espacios modernos y vanguardistas.
+          h2 Tonos vivos
+          p.col-lg-12.col-md-7.mt-5 Los tonos “vivos”, primarios e incluso “ácidos”, han tomado relevancia recientemente en espacios modernos y vanguardistas.
         .col-md-5
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-6.png')
@@ -67,9 +87,9 @@
     .separador.my-5
 
     #t_6_2.titulo-segundo.color-acento-contenido.pb-3
-      h2 6.2 Materiales metálicos y accesorios.
+      h2 6.2 Materiales metálicos y accesorios
 
-    p Los ambientes a los cuales van dirigidos los productos mobiliarios son de muchos tipos, sin embargo, se resaltan según sean exteriores o interiores, en estos últimos, también destacan los espacios habitacionales como casas, dormitorios, y de trabajo como talleres u oficinas. En cada uno de estos hay aspectos importantes como los colores que componen el espacio, paredes, techo, tonalidad de la luz.
+    p La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez. 
 
     SlyderA.tarjeta.color-gris.my-4.p-5(tipo="b")
       .row.justify-content-between
@@ -92,6 +112,8 @@
 export default {
   name: 'Tema6',
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
     // variables de vue
   }),
   mounted() {

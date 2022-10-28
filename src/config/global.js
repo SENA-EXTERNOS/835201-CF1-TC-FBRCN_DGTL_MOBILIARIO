@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: `DISEÑO DE MOBILIARIO CON ENFOQUE A MERCADO Y CLIENTES`,
+    componenteFormativo: `Diseño de mobiliario con enfoque a mercado y clientes`,
     descripcionCurso: `Componente enfocado en adquirir las competencias básicas del dibujo y diseño de prototipos de mobiliarios, tomando como referencia los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, orientado a la satisfacción de las necesidades del cliente y del mercado.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.png'),
@@ -40,6 +40,12 @@ export default {
             numero: '1.1',
             titulo: 'teoría del color',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Diseño y arquitectura',
+            hash: 't_1_2',
           },
         ],
       },
@@ -121,6 +127,27 @@ export default {
         titulo: `Tendencias de diseño mobiliario`,
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: `Ergonomía y anatomía básica`,
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema10',
+        icono: 'far fa-file-alt',
+        numero: '10',
+        titulo: `Tendencias de diseño mobiliario`,
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema11',
+        icono: 'far fa-file-alt',
+        numero: '11',
+        titulo: `Tendencias de diseño mobiliario`,
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -165,43 +192,43 @@ export default {
   complementario: [
     {
       tema: 'Dibujo técnico, elementos y herramientas',
-      referencia: `Departamento de Tecnología IES (2019) Tema 2 Expresión gráfica y dibujo técnico. `,
+      referencia: `Departamento de Tecnología IES (2019) <em>Tema 2 Expresión gráfica y dibujo técnico</em>. `,
       tipo: `Documento que reúne el compendio de elementos y normas que hacen parte del dibujo técnico.`,
       link: `https://www3.gobiernodecanarias.org/medusa/ecoblog/dtrugar/files/2019/11/02-expresion-grafica-y-dibujo-tecnico.pdf`,
     },
     {
       tema: `Geometría básica e introducción al sketch`,
-      referencia: `Marín, M. (2013). Guía práctica de geometría área y perímetro de figuras.`,
+      referencia: `Marín, M. (2013). <em>Guía práctica de geometría área y perímetro de figuras</em>.`,
       tipo: `Guía para el estudio y manejo de figuras geométricas planas, propiedades y ejercicios.`,
       link: `https://lasmatematicasgaitanistas.files.wordpress.com/2020/03/guc3ada-de-geometrc3ada-c3a1rea-y-perc3admetro-3.pdf`,
     },
     {
       tema: `Dibujo con perspectivas, utilización de uno y más puntos de fuga`,
-      referencia: `Way, M. Omega (1991) La perspectiva en el dibujo.`,
+      referencia: `Way, M. Omega (1991) <em>La perspectiva en el dibujo</em>.`,
       tipo: `Guía para el dibujo con perspectiva`,
       link: `https://docs.google.com/file/d/0B87HcjSh5WzccDJFTTR5NFBtVTg/edit?resourcekey=0-KpilTagDYiLSXod87s-daQ`,
     },
     {
       tema: `Dibujo de cuerpos con volumen, vistas e isométricos`,
-      referencia: `Rodríguez, S. (2013) Fórmulas de área y volumen de cuerpos geométricos. Recursos de una profesora de matemáticas de la enseñanza pública.`,
+      referencia: `Rodríguez, S. (2013)<em> Fórmulas de área y volumen de cuerpos geométricos</em>. Recursos de una profesora de matemáticas de la enseñanza pública.`,
       tipo: `Fórmulas de área y volumen de cuerpos geométricos.`,
       link: `http://www.srbarreiro.es/Apuntes/DosESO/Geometria/TablaAreasVolumenes.pdf`,
     },
     {
       tema: `Cliente y mercado`,
-      referencia: `Armstrong, G., Kotler, P. (2013) Fundamentos del marketing. `,
+      referencia: `Armstrong, G., Kotler, P. (2013) <em>Fundamentos del marketing</em>. `,
       tipo: `Libro de consulta.`,
       link: `https://frrq.cvg.utn.edu.ar/pluginfile.php/14584/mod_resource/content/1/Fundamentos%20del%20Marketing-Kotler.pdf`,
     },
     {
       tema: `Cliente y mercado`,
-      referencia: `Universidad Nacional Autónoma de México, Facultad de contaduría y administración, División del sistema Universidad abierta. (2003) Apuntes para la asignatura administración básica 1. `,
+      referencia: `Universidad Nacional Autónoma de México, Facultad de contaduría y administración, División del sistema Universidad abierta. (2003). <em>Apuntes para la asignatura administración básica 1</em>. `,
       tipo: `Tutorial`,
       link: `http://fcasua.contad.unam.mx/apuntes/interiores/docs/98/1/admon_bas1.pdf`,
     },
     {
       tema: `Ergonomía y anatomía básica`,
-      referencia: `Iglesias, F. (s/f). Ergonomía y Salud en los entornos de oficina.`,
+      referencia: `Iglesias, F. (s/f). <em>Ergonomía y Salud en los entornos de oficina</em>.`,
       tipo: `Manual`,
       link: `https://www.jmcprl.net/PUBLICACIONES/F06/ERGO%20OFICINA/Ergo%20Oficina.pdf`,
     },
@@ -238,11 +265,11 @@ export default {
   ],
   referencias: [
     {
-      referencia: `Way, M. (1991). Dibujo con perspectivas, utilización de uno y más puntos de fuga, Barcelona, Ediciones Omega.`,
+      referencia: `Way, M. (1991).<em> Dibujo con perspectivas, utilización de uno y más puntos de fuga</em>. Barcelona, Ediciones Omega.`,
       link: '',
     },
     {
-      referencia: `Escuela de diseño de Madrid (s/f). ¿Qué es el diseño de arquitectura?`,
+      referencia: `Escuela de diseño de Madrid (s/f).<em> ¿Qué es el diseño de arquitectura?</em>`,
       link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
     },
   ],

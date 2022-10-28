@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Geometría básica e introducción al sketch
+      h1 Geometría básica e introducción al <em>sketch</em>
 
     p La geometría es una rama de las matemáticas que se encarga de estudiar la relación y propiedades entre las medidas y formas de las figuras representadas en el plano (dos dimensiones) y el espacio (tres dimensiones). 
 
@@ -31,7 +31,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema3/img-1.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
 
           p.text-small Los polígonos corresponden a figuras planas cerradas limitadas por segmentos rectilíneos.
 
@@ -40,7 +40,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema3/img-2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
 
           p.text-small Los elementos que conforman un polígono son lados, vértices, ángulos y diagonales.
 
@@ -49,7 +49,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema3/img-3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
 
           p.text-small Los lados son líneas o segmentos que delimitan o enmarcan un polígono.
 
@@ -58,7 +58,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema3/img-1.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
 
           p.text-small.pb-3 Los vértices son los puntos donde se cortan los lados.
 
@@ -67,9 +67,18 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/temas/tema3/img-2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
 
           p.text-small Los ángulos son espacios o regiones comprendidas entre un par de lados.
+
+      .col-sm-6.col-lg-4.my-4
+        .tarjeta--boton.color-acento-botones.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema3/img-7.png', alt='Texto que describa la imagen')
+
+          p.text-small Las diagonales son segmentos que unen cada pareja de vértices no consecutivos.
           
     p.my-4.mb-5 Los polígonos se dividen en función del número de lados:
     
@@ -78,7 +87,7 @@
         p Figura 1. Polígonos
       .col-8
         figure.mb-5
-          img(src='@/assets/curso/temas/tema3/poligonos.png')
+          img(src='@/assets/curso/temas/tema3/img-8.png')
    
     .col-lg-8.mb-5
         .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
@@ -98,24 +107,37 @@
             li
     .row.mb-5
 
-      h3 Sketch
+      h3 <em>Sketch</em>
 
       p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0
-          figure(data-aos="fade-left")
-            img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-5.png')
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante, normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros, y se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
+  
+    .row.mb-5
+      .col-6
+        .col-sm.mb-5.mb-sm-0
+          ol.lista-ol--cuadro.lista-ol--separador
+            li 
+              .lista-ol--cuadro__vineta
+                span 1
+              | El boceto, a diferencia del dibujo técnico, no tiene reglas o técnicas que establezcan un método específico para su realización, depende en gran medida de las capacidades artísticas y destrezas del diseñador o dibujante.
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              | Normalmente los bocetos se plasman en papel a través del uso de herramientas de escritura como el lápiz o lapiceros.
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              | Los bocetos se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
+      .col-6
+        figure 
+          img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-9.png')
+          
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-7
           .bloque-texto-a__texto.p-4
-            p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el sketch o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
+            p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el <em>sketch</em> o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
         .col-lg-5.mb-4.mb-lg-0.mt-5
           figure(data-aos="fade-right")
             img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-6.png')

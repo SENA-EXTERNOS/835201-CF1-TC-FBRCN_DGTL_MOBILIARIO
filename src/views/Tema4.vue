@@ -51,13 +51,16 @@
           .bloque-texto-a__texto.p-4
             p El principio de convergencia o, como a veces se le llama, punto de fuga, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
 
-    p.mx-5 <em> Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.</em>
+    p.ms-5.mb-5 <em> Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.</em>
 
-    p.my-4.mb-5 La utilización de <b>dos puntos de fuga</b>. En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. Para representar un objeto con dos puntos de fuga de manera sencilla, primero se establecen los ángulos que forma dicho objeto con el cuadro. 
+    h2.mb-4 La utilización de dos puntos de fuga
+
+    p.mb-5 Tenemos comprensión sobre el uso de un punto de fuga, observe en la siguiente información donde se puede ver cuando tenemos más de un solo punto.
 
     SlyderA.color-gris.tarjeta.mb-5(tipo="b")
       .row.justify-content-center.align-items-center
         .col-md-5
+          p.col-lg-12.col-md-10.mx-5 En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. 
           p.col-lg-12.col-md-10.mx-5 Ejemplo de objeto representado con dos puntos de fuga.
         .col-lg-5
           figure
@@ -70,7 +73,7 @@
           p.col-lg-10.col-md-10.mx-5 Ejemplo de varios objetos representados con dos puntos de fuga.
       .row.color-gris.justify-content-center.align-items-center
         .col-md-6
-          p.col-lg-10.col-md-10.mx-5 Ejemplo de un sketch representado con dos puntos de fuga.
+          p.col-lg-10.col-md-10.mx-5 Ejemplo de un <em>sketch</em> representado con dos puntos de fuga.
         .col-md-5
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-5.png')
