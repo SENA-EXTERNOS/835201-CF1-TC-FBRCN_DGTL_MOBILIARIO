@@ -43,7 +43,7 @@
 
     p.mb-5 Algunas características especiales a tener en cuenta para el uso de los colores son:
 
-    SlyderA.tarjeta.color-gris.my-4.p-5(tipo="b")
+    SlyderA.tarjeta.color-gris.mb-5.p-5(tipo="b")
       .row.justify-content-between
         .col-md-6.mt-4
           h2 Colores cálidos 
@@ -80,11 +80,7 @@
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-6.png')
 
-    a.mx-4.boton.color-acento-botones.indicador__container(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
-      span.me-1 Enlace
-      i.fas.fa-link
-
-    .separador.my-5
+    .separador.mb-5
 
     #t_6_2.titulo-segundo.color-acento-contenido.pb-3
       h2 6.2 Materiales metálicos y accesorios

@@ -21,13 +21,13 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema9/img-2.png')})`}"
       )
       .bloque-texto-g__texto.p-4.mb-5.p-5
-        p.mb-5 La ergonomía y su aplicabilidad está enmarcada dentro de los preceptos habituales de la anatomía humana, la cual es la ciencia que estudia el comportamiento y composición del cuerpo humano. Es importante tener en cuenta que el diseño de mobiliario, también debe contemplar el ámbito inclusivo, las necesidades de las personas que cuentan con restricción en la movilidad o falta de extremidades.
+        p.mb-5 La ergonomía y su aplicabilidad está enmarcada dentro de los preceptos habituales de la <b>anatomía humana</b>, la cual es la ciencia que estudia el comportamiento y composición del cuerpo humano. Es importante tener en cuenta que el diseño de mobiliario, también debe contemplar el ámbito inclusivo, las necesidades de las personas que cuentan con restricción en la movilidad o falta de extremidades.
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
         .col-lg-7
           .bloque-texto-a__texto.p-4
-            p Todo diseño de mobiliario debe estar orientado al cumplimiento de condiciones y normas que garanticen la correcta y adecuada postura de quien hace uso de los mismos, a esta condición se le conoce como ergonomía. Por lo general, los productos mobiliarios que tienen un diseño altamente enfocado a la ergonomía, poseen un valor económico superior, pues en la fabricación de productos altamente ergonómicos intervienen una gama de materiales distintos a la madera, acero, aluminio o plásticos, cuyo costo de manufactura y adquisición son, por lo general, superiores a las anteriores materias primas.
+            p Todo diseño de mobiliario debe estar orientado al cumplimiento de condiciones y normas que garanticen la correcta y adecuada postura de quien hace uso de los mismos, a esta condición se le conoce como <b>ergonomía</b>. Por lo general, los productos mobiliarios que tienen un diseño altamente enfocado a la ergonomía, poseen un valor económico superior, pues en la fabricación de productos altamente ergonómicos intervienen una gama de materiales distintos a la madera, acero, aluminio o plásticos, cuyo costo de manufactura y adquisición son, por lo general, superiores a las anteriores materias primas.
 
             p Para profundizar en la temática relacionada a ergonomía, se recomienda consultar el documento referenciado en el material complementario.
         .col-lg-5.mb-4.mb-lg-0.mt-5

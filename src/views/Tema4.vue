@@ -47,9 +47,10 @@
         .col-lg-5.mb-4.mb-lg-0.mt-5
           figure(data-aos="fade-right")
             img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-2.png')
+            figcaption.color-fig Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.
         .col-lg-7
           .bloque-texto-a__texto.p-4
-            p El principio de convergencia o, como a veces se le llama, punto de fuga, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
+            p <b>El principio de convergencia</b> o, como a veces se le llama, <b>punto de fuga</b>, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
 
     p.ms-5.mb-5 <em> Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.</em>
 
@@ -70,6 +71,8 @@
           figure
             img.img-250.img-cen.mb-4(src='@/assets/curso/temas/tema4/img-4.png')
         .col-md-5
+          p En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. 
+          br
           p.col-lg-10.col-md-10.mx-5 Ejemplo de varios objetos representados con dos puntos de fuga.
       .row.color-gris.justify-content-center.align-items-center
         .col-md-6
@@ -78,20 +81,7 @@
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-5.png')
 
-    .row.mb-5
-      .col-auto.my-4
-        a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-          span Nota
-          <i class="fas fa-bookmark"></i>
-          .indicador--click(v-if="mostrarIndicador")
-
-    ModalA(:abrir-modal.sync="modal1")
-      .row.align-items-center
-        .col-md-6.mb-4.mb-md-0
-          h4 
-          p 
-
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der-1
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-2.fnd-der-1
       .row.m-0.align-items-center.justify-content-between
         .col-lg-5.mb-4.mb-lg-0.mt-5
           figure(data-aos="fade-right")

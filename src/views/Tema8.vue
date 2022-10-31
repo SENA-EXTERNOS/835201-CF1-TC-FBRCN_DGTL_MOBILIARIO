@@ -24,7 +24,7 @@
           figure
             img.img-250.img-cen.mb-4.mt-4(src='@/assets/curso/temas/tema8/img-2.png')
         .col-md-6
-          h2 Clásico victoriano  
+          h2.mt-3 Clásico victoriano  
           p.col-lg-12.col-md-7.mt-4 El victoriano corresponde a la época del mismo nombre, se caracterizan por los labrados manuales extremadamente detallados en la madera, formas curvas y anchas, además de la amplia zona suave de reposo en brazos, espalda y asiento. Otra característica son los colores dorados, plateados o cobrizos con los que se pigmentaban.
       .row.justify-content-center
         .col-md-6
@@ -45,7 +45,7 @@
           figure
             img.img-250.img-cen.mb-4(src='@/assets/curso/temas/tema8/img-5.png')
         .col-md-5
-          h2 Rústico 
+          h2.mt-3 Rústico 
           p.col-lg-12.col-md-7.mt-4 Son mobiliarios que resaltan la naturalidad de la materia prima que los compone, la mayoría de los casos, madera de árboles sin procesar o transformar.
       .row.justify-content-center
         .col-md-6

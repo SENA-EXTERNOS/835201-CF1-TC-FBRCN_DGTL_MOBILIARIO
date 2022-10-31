@@ -78,7 +78,7 @@
 
           p De acuerdo a lo señalado anteriormente, la administración requiere que quien ejerce la función de encargado o administrador, cumpla con una serie de requisitos; a estos requisitos se le denomina <b>perfil</b>. El perfil, es el compendio de aptitudes y actitudes que de acuerdo al tipo de organización, empresa o proyecto que se administre, se requieren para el éxito y sostenibilidad del mismo.
 
-    p Para profundizar en el concepto de administración, se recomienda consultar el documento referenciado en el material complementario.sky
+    p Para profundizar en el concepto de administración, se recomienda consultar el documento referenciado en el material complementario.
 
     tarjeta
 </template>
