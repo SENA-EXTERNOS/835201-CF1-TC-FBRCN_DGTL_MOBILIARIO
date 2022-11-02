@@ -23,28 +23,26 @@
         .cajon.color-acento-contenido.p-4.mb-4.color-gris
           p El objetivo del dibujo técnico consiste en representar los objetos de forma clara e inequívoca para su correcta lectura, análisis e interpretación.
 
-    .tarjeta.p-4.mb-5.color-gris
-      .row.justify-content-end.align-items-center
-        .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
-          figure
-            img(src="@/assets/curso/temas/tema2/img-2.png")
-        .col-md-6.order-md-first.order-sm-last
-          p El <b>plano,</b> es el recurso o herramienta sobre la cual se basa el dibujo técnico para plasmar o representar ideas y/o conceptos, en éste se emplean instrumentos de dibujo, ya sean tradicionales como la regla, escuadra, lápiz de carbón, etc., así mismo los encontramos en los modernos programas de <b>CAD</b> <em>(Computer Added Design).</em>
-          br
-          br
-          p En los planos se emplea la <b>escala,</b> el uso de esta herramienta debe ser entendido por cualquier persona con formación técnica básica. 
+    .row.justify-content-end.align-items-center
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
+        figure
+          img(src="@/assets/curso/temas/tema2/img-2.png")
+      .col-md-6.order-md-first.order-sm-last
+        p El <b>plano,</b> es el recurso o herramienta sobre la cual se basa el dibujo técnico para plasmar o representar ideas y/o conceptos, en éste se emplean instrumentos de dibujo, ya sean tradicionales como la regla, escuadra, lápiz de carbón, etc., así mismo los encontramos en los modernos programas de <b>CAD</b> <em>(Computer Added Design).</em>
+        br
+        p En los planos se emplea la <b>escala,</b> el uso de esta herramienta debe ser entendido por cualquier persona con formación técnica básica. 
 
-          .rowd-flex.justify-content-start
-            .col-12
-              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                .row 
-                  .col-12
-                    figure
-                      img.taman-img(src='@/assets/curso/temas/tema2/icono.png')
-                .indicador--click(v-if="mostrarIndicador")
-                .row
-                  h4.ms-3 Nota
-                  p.ms-3 Los <b>símbolos</b> también son empleados en los planos, estos nos facilitan la representación de los elementos. 
+        .rowd-flex.justify-content-start
+          .col-12
+            a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+              .row 
+                .col-12
+                  figure
+                    img.taman-img(src='@/assets/curso/temas/tema2/icono.png')
+              .indicador--click(v-if="mostrarIndicador")
+              .row
+                h4.ms-3 Nota
+                p.ms-3 Los <b>símbolos</b> también son empleados en los planos, estos nos facilitan la representación de los elementos. 
 
           ModalA(:abrir-modal.sync="modal1")
             .row.align-items-center

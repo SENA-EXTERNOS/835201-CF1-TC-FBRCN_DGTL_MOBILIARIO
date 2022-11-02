@@ -6,18 +6,18 @@
       .titulo-principal__numero
         span 4
       h1 Dibujo con perspectivas, utilización de uno y más puntos de fuga
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-5.mb-4.mb-lg-0
+          figure(data-aos="fade-right")
+            img.img-cen(src='@/assets/curso/temas/tema4/img-1.png')
+            figcaption El dibujo en perspectiva transporta al observador al espacio o realidad que el diseñador quiere transmitir, es fundamental para lograr trasmitir emociones a través de un dibujo.
+        .col-lg-7
+          .bloque-texto-a__texto.p-4
+            p La perspectiva en el dibujo es la técnica que le permite al diseñador o proyectista <b>trasmitirle al espectador la sensación de profundidad o un espacio de tres dimensiones </b>en una ilustración, boceto o creación en un recurso plano como una hoja.
 
-    p.mb-5 La perspectiva en el dibujo es la técnica que le permite al diseñador o proyectista trasmitirle al espectador la sensación de profundidad o un espacio de tres dimensiones en una ilustración, boceto o creación en un recurso plano como una hoja.
-
-    .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris.mb-5
-      .row.justify-content-end.align-items-center
-        .col-md-5.order-md-first.order-sm-last
-          h4.col-md-pt-5 Introducción
-          p El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
-
-        .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
-          figure
-            img(src="@/assets/curso/temas/tema4/img-1.png")
+    p.mb-5 El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
+    
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Visual ")
         p Es una línea imaginaria que parte de los ojos del espectador y se dirige al infinito.
@@ -52,21 +52,19 @@
           .bloque-texto-a__texto.p-4
             p <b>El principio de convergencia</b> o, como a veces se le llama, <b>punto de fuga</b>, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
 
-    p.ms-5.mb-5 <em> Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.</em>
-
-    h2.mb-4 La utilización de dos puntos de fuga
+    h4 .mb-4 La utilización de dos puntos de fuga
 
     p.mb-5 Tenemos comprensión sobre el uso de un punto de fuga, observe en la siguiente información donde se puede ver cuando tenemos más de un solo punto.
 
     SlyderA.color-gris.tarjeta.mb-5(tipo="b")
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-center.mt-5
         .col-md-5
           p.col-lg-12.col-md-10.mx-5 En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. 
           p.col-lg-12.col-md-10.mx-5 Ejemplo de objeto representado con dos puntos de fuga.
         .col-lg-5
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-3.png')
-      .row.color-gris.justify-content-center.align-items-center
+      .row.color-gris.justify-content-center.align-items-center.mt-5
         .col-md-6.mt-5
           figure
             img.img-250.img-cen.mb-4(src='@/assets/curso/temas/tema4/img-4.png')
@@ -74,29 +72,28 @@
           p En un dibujo los lados paralelos de los objetos forman ángulos diversos al momento de ser representados en el cuadro, en el caso de los objetos de forma regular, existen dos puntos de fuga en la línea del horizonte. 
           br
           p.col-lg-10.col-md-10.mx-5 Ejemplo de varios objetos representados con dos puntos de fuga.
-      .row.color-gris.justify-content-center.align-items-center
+      .row.color-gris.justify-content-center.align-items-center.mt-5
         .col-md-6
           p.col-lg-10.col-md-10.mx-5 Ejemplo de un <em>sketch</em> representado con dos puntos de fuga.
         .col-md-5
           figure
             img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-5.png')
+      .row.color-gris.justify-content-center.align-items-center.mt-5
+        .col-md-5
+          figure
+            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-6.png')    
+        .col-md-6
+          p.col-lg-10.col-md-10.mx-5.mt-5 Normalmente en el dibujo o proyecciones de mobiliarios, no suelen utilizarse más de tres puntos de fuga; sin embargo, la utilización de más de dos logra trasmitir mejores efectos de profundidad a las representaciones, en caso que se llegase a requerir o implementar más de dos puntos fuga, estos suelen ser <em>perpendiculares</em> entre sí, en vista de plana (vista superior), ejemplo de estos son puertas abiertas, calles que se separan en direcciones distintas. En cualquier caso, sin importar la cantidad de puntos de fuga que se utilicen, estos siempre están sobre la línea del horizonte.
+          p.col-lg-10.col-md-10.mx-5 Ejemplo de dibujo con tres puntos de fuga.
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-2.fnd-der-1
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0.mt-5
-          figure(data-aos="fade-right")
-            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-6.png')
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p Normalmente en el dibujo o proyecciones de mobiliarios, no suelen utilizarse más de tres puntos de fuga; sin embargo, la utilización de más de dos logra trasmitir mejores efectos de profundidad a las representaciones, en caso que se llegase a requerir o implementar más de dos puntos fuga, estos suelen ser <em>perpendiculares</em> entre sí, en vista de plana (vista superior), ejemplo de estos son puertas abiertas, calles que se separan en direcciones distintas. En cualquier caso, sin importar la cantidad de puntos de fuga que se utilicen, estos siempre están sobre la línea del horizonte.
-    
-    p.mx-5 <em> Ejemplo de dibujo con tres puntos de fuga.</em>
 
     p.my-4.mb-4 El siguiente enlace conduce a una muestra de la realización del proceso de perspectiva, utilizando una herramienta digital mediante un dispositivo móvil. Lo invito a observar el video.
 
-    a.mx-4.boton.color-acento-botones.indicador__container(href="https://www.youtube.com/watch?v=gipXIjgR9_c&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
-      span.me-1 Enlace
-      i.fas.fa-link
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gipXIjgR9_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+  
 
 </template>
 <script>

@@ -7,14 +7,14 @@
         span 6
       h1 Elementos y procesos del diseño
 
-    .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris
+    .tarjeta.p-4.p-md-5.mb-5.fondo6.color-gris
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.py-4 
           p Es importante examinar en el diseño de producto mobiliario, cómo impacta de manera visual con el público, esto garantiza en gran medida su éxito y aceptación. En esta ocasión se revisarán los aspectos relacionados de la manera en la cual un producto puede ser mejor percibido por las personas en un ambiente en particular y los materiales y accesorios que facilitan esta mejor percepción de manera general.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
           figure(data-aos="fade-right")
-            img.img-250.img-cen(src="@/assets/curso/temas/tema6/img-1.png")
+            img(src="@/assets/curso/temas/tema6/img-1.png")
 
     .separador.p-3
 
@@ -72,13 +72,13 @@
         .col-md-6.mt-5
           h2 Colores neutros 
           p.col-lg-12.col-md-7.mt-3 Como gris, negro y blanco han sido los tradicionalmente utilizados en los diseños de los mobiliarios de oficina.
-      .row.justify-content-between
-        .col-md-5.mt-4
-          h2 Tonos vivos
-          p.col-lg-12.col-md-7.mt-5 Los tonos “vivos”, primarios e incluso “ácidos”, han tomado relevancia recientemente en espacios modernos y vanguardistas.
+      .row.justify-content-around
+        .col-md-6.mt-4
+          h2.mt-5.ms-5 Tonos vivos
+          p.col-lg-12.col-md-7.mt-5.ms-5 Los tonos “vivos”, primarios e incluso “ácidos”, han tomado relevancia recientemente en espacios modernos y vanguardistas.
         .col-md-5
-          figure
-            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-6.png')
+          figure.tam-img-6
+            img.img-250.ms-5(src='@/assets/curso/temas/tema6/img-6.png')
 
     .separador.mb-5
 
@@ -87,21 +87,22 @@
 
     p La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez. 
 
-    SlyderA.tarjeta.color-gris.my-4.p-5(tipo="b")
-      .row.justify-content-between
-        .col-md-6
-          p.col-lg-12.col-md-7.mt-3 La implementación de materiales metálicos en el diseño de mobiliario, permite entre otras cosas, variar las texturas del producto, y generarle al cliente o al usuario la posibilidad de experimentar diferentes sensaciones sensoriales, además de la percepción de firmeza o durabilidad que generalmente transmiten los metales.
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema6/img-7.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p La implementación de materiales metálicos en el diseño de mobiliario, permite entre otras cosas, variar las texturas del producto, y generarle al cliente o al usuario la posibilidad de experimentar diferentes sensaciones sensoriales, además de la percepción de firmeza o durabilidad que generalmente transmiten los metales.
+        br
+        br
+        p El acero en particular le otorga al inmueble la propiedad de robustez y le transmite al observador una característica de seguridad y durabilidad.
 
-          p.col-lg-12.col-md-7.mt-3 El acero en particular le otorga al inmueble la propiedad de robustez y le transmite al observador una característica de seguridad y durabilidad.
-        .col-md-6
-          figure
-            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-7.png')
-      .row.justify-content-between
-        .col-md-6
-          figure
-            img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-8.png')
-        .col-md-6
-          p.col-lg-12.col-md-7.mt-5 Los accesorios en los muebles permiten realzar atributos y características, el brillo de los metales en agarraderas es un ejemplo. Así mismo, la utilización de rieles en materiales metálicos, facilita el movimiento y durabilidad de los productos fabricados en madera.
+    .row.justify-content-between
+      .col-md-6
+        figure
+          img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-8.png')
+      .col-md-6
+        p.col-lg-12.col-md-7.mt-5 Los accesorios en los muebles permiten realzar atributos y características, el brillo de los metales en agarraderas es un ejemplo. Así mismo, la utilización de rieles en materiales metálicos, facilita el movimiento y durabilidad de los productos fabricados en madera.
           
 </template>
 <script>

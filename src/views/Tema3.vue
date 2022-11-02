@@ -131,16 +131,16 @@
       .col-6
         figure 
           img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-9.png')
+
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-10.png')})`}"
+      )
+      .bloque-texto-g__texto.p-5.m-5
+        p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el <em>sketch</em> o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
           
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-izq
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el <em>sketch</em> o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
-        .col-lg-5.mb-4.mb-lg-0.mt-5
-          figure(data-aos="fade-right")
-            img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-6.png')
+    
 
 </template>
 
