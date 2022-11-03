@@ -29,17 +29,17 @@
           img(src="@/assets/curso/temas/tema6/img-02.png")
       .col-6
         p En el caso de los ambientes habitacionales como las casas, normalmente se encuentran tonos neutros como el blanco, sobre el cual la mayoría de colores de un mobiliario tienen buena relación. En otros casos, cuando lo que se pretende en estos tipos de espacios es generar sensaciones de reposo, tranquilidad y descanso, los colores y tonos pasteles son los más empleados, así como los colores cálidos.
-          .row.mb-5
-            .col-auto
-              a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                span Nota
-                <i class="fas fa-bookmark"></i>
-                .indicador--click(v-if="mostrarIndicador")
 
-          ModalA(:abrir-modal.sync="modal1")
-            .row.align-items-center
-              .col-md-12.mb-4.mb-md-0 
-                p De acuerdo al círculo cromático, los colores cálidos se encuentran debajo de la línea horizontal negra y los fríos por encima de ésta.
+        .rowd-flex.justify-content-start
+          .col-12
+            .boton.color-acento-botones.indicador__container
+              .row 
+                .col-12
+                  figure
+                    img.taman-img(src='@/assets/curso/temas/tema2/icono.png')
+              .row
+                h4.ms-3 Nota
+                p.ms-3 De acuerdo al círculo cromático, los colores cálidos se encuentran debajo de la línea horizontal negra y los fríos por encima de ésta.
 
     p.mb-5 Algunas características especiales a tener en cuenta para el uso de los colores son:
 
@@ -85,7 +85,7 @@
     #t_6_2.titulo-segundo.color-acento-contenido.pb-3
       h2 6.2 Materiales metálicos y accesorios
 
-    p La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez. 
+    p.mb-5 La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez. 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -96,13 +96,17 @@
         br
         br
         p El acero en particular le otorga al inmueble la propiedad de robustez y le transmite al observador una característica de seguridad y durabilidad.
-
-    .row.justify-content-between
-      .col-md-6
-        figure
-          img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-8.png')
-      .col-md-6
-        p.col-lg-12.col-md-7.mt-5 Los accesorios en los muebles permiten realzar atributos y características, el brillo de los metales en agarraderas es un ejemplo. Así mismo, la utilización de rieles en materiales metálicos, facilita el movimiento y durabilidad de los productos fabricados en madera.
+        
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fnd-izq-5
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8
+          .bloque-texto-a__texto.siete.p-4
+            br
+            br
+            p Los accesorios en los muebles permiten realzar atributos y características, el brillo de los metales en agarraderas es un ejemplo. Así mismo, la utilización de rieles en materiales metálicos, facilita el movimiento y durabilidad de los productos fabricados en madera.
+            br
+            br
+        .col-lg-4.mb-4.mb-lg-0.mt-5
           
 </template>
 <script>

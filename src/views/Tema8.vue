@@ -13,7 +13,7 @@
 
     SlyderA.tarjeta.color-gris.my-4.p-3(tipo="b")
       .row.justify-content-center
-        .col-md-6
+        .col-md-6.p-5
           h2 Mobiliario clásico 
           p.col-lg-12.col-md-7 Son mobiliarios mayoritariamente construidos en madera maciza, en función del tipo de usuario, su rigidez y complejidad.
         .col-md-6

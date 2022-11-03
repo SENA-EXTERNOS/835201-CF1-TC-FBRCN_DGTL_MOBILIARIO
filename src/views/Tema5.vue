@@ -7,7 +7,7 @@
         span 5
       h1 Dibujo de cuerpos con volumen, vistas e isométricos
 
-    .tarjeta.p-4.p-md-5.mb-5.fondo2   .mb-5
+    .tarjeta.p-4.p-md-5.mb-5.fondo2.mb-5
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last.py-4
           
