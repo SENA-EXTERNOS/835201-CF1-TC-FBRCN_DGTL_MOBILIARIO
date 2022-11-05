@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Diseño de Mobiliario con enfoque a mercado y clientes
-        p.mb-4 #[b Objetivo]. En la siguiente actividad encontrará conceptos relacionados con el contenido de estudio;, los cuales estos le ayudarán a reforzar el conocimiento adquirido. Indique en cada caso si la afirmación es falsa o verdadera:
+        p.mb-4 #[b Objetivo]. En la siguiente actividad encontrará conceptos relacionados con el contenido de estudio, los cuales estos le ayudarán a reforzar el conocimiento adquirido. Indique en cada caso si la afirmación es falsa o verdadera:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
