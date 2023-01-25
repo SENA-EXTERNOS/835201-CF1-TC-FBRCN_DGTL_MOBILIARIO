@@ -51,21 +51,12 @@
       div(titulo="Vista posterior")
         p Si se requiere o necesita la proyección de esta vista, corresponde a la cara posterior del isométrico; al igual que las vistas laterales izquierda y derecha, es perpendicular a la cara del isométrico.
 
-    SlyderA.tarjeta.color-gris.my-4.p-5.mb-5(tipo="b")
-      .row.color-gris.justify-content-center.align-items-center
-        .col-md-5
-          figure
-            img(src='@/assets/curso/temas/tema5/img-2.png')
-        .col-md-5.my-5
-          p.col-lg-11.col-md-10 Ejemplo de representación de un dibujo isométrico en un plano.
-      .row.color-gris.justify-content-center.align-items-center
-        .col-md-5.mb-4
-          p.col-lg-11.col-md11 Ejemplo de representación vista frontal y lateral izquierda de silla gris (arriba), vista frontal y posterior o trasera de sillón gris (abajo).
-        .col-md-5
-          figure
-            img.img-250.img-cen(src='@/assets/curso/temas/tema5/img-3.png')
-
-    p.mb-5 En el video relacionado a continuación, y mediante el uso de un programa tipo CAD, se profundizan y ejemplifican más detalladamente, los conceptos de perspectiva, isométrico y vistas. 
+    .row.justify-content-center
+      .col-lg-9
+        figure
+          img(src='@/assets/curso/temas/tema5/img1.svg')
+    
+    p.mb-5.mt-5 En el video relacionado a continuación, y mediante el uso de un programa tipo CAD, se profundizan y ejemplifican más detalladamente, los conceptos de perspectiva, isométrico y vistas:
 
     figure
       .video

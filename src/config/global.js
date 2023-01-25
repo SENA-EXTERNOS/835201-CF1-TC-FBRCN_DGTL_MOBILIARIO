@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo: `Diseño de mobiliario con enfoque a mercado y clientes`,
-    descripcionCurso: `Componente enfocado en adquirir las competencias básicas del dibujo y diseño de prototipos de mobiliarios, tomando como referencia los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, orientado a la satisfacción de las necesidades del cliente y del mercado.`,
+    descripcionCurso: `Este componente se encuentra enfocado en la adquisición de las competencias básicas del dibujo y el diseño de prototipos para mobiliarios, tomando como referencia, los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, con el objetivo de aprender a orientarse en la satisfacción de las necesidades del cliente y del mercado.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.png'),
     imagenesDecorativasBanner: [
@@ -138,14 +138,14 @@ export default {
         nombreRuta: 'tema10',
         icono: 'far fa-file-alt',
         numero: '10',
-        titulo: `Tendencias de diseño mobiliario`,
+        titulo: `Introducción a la producción, servicios y productos de la cadena de valor`,
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema11',
         icono: 'far fa-file-alt',
         numero: '11',
-        titulo: `Tendencias de diseño mobiliario`,
+        titulo: `Maderas y materias primas especiales`,
         desarrolloContenidos: true,
       },
     ],
@@ -235,6 +235,20 @@ export default {
   ],
   glosario: [
     {
+      termino: 'Administración',
+      significado:
+        'es la disciplina que estudia el uso óptimo de los recursos en una organización, empresa o negocio.',
+    },
+    {
+      termino: 'Convergencia',
+      significado: 'unión de varias líneas en un punto.',
+    },
+    {
+      termino: 'Ergonomía',
+      significado:
+        'estudia la relación que existe de un objeto, vehículo o herramientas con las condiciones y características físicas, anatómicas y psicológicas del que las va a usar',
+    },
+    {
       termino: `Boceto`,
       significado: `esquema o proyecto que contiene solamente los rasgos principales de una obra artística o técnica.`,
     },
@@ -265,12 +279,14 @@ export default {
   ],
   referencias: [
     {
-      referencia: `Way, M. (1991).<em> Dibujo con perspectivas, utilización de uno y más puntos de fuga</em>. Barcelona, Ediciones Omega.`,
-      link: '',
+      referencia:
+        'Escuela de diseño de Madrid. (s/f). <em>¿Qué es el diseño de arquitectura?</em>',
+      link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
     },
     {
-      referencia: `Escuela de diseño de Madrid (s/f).<em> ¿Qué es el diseño de arquitectura?</em>`,
-      link: 'https://esdima.com/que-es-el-diseno-de-arquitectura/',
+      referencia:
+        'Way, M. (1991). <em>Dibujo con perspectivas, utilización de uno y más puntos de fuga</em>. Ediciones Omega.',
+      link: '',
     },
   ],
   creditos: {

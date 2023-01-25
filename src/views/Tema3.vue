@@ -9,20 +9,19 @@
 
     p La geometría es una rama de las matemáticas que se encarga de estudiar la relación y propiedades entre las medidas y formas de las figuras representadas en el plano (dos dimensiones) y el espacio (tres dimensiones). 
 
-    .rowd-flex.justify-content-start.mb-5
-      .col-12
-        .boton.color-acento-botones
-          .row 
-            .col-12
+    .row.justify-content-center
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4.mb-4.color-gris
+          .row.justify-content-center
+            .col-1
               figure
-                img.taman-img-1(src='@/assets/curso/temas/tema2/icono.png')
-          .row
-            h4.ms-3 Nota
-            p.ms-3 La comprensión de la relación que existe entre propiedades como el área, el perímetro y el volumen, ayudan a entender y proyectar diseños constructivos de mobiliarios a partir de la construcción, permitiendo obtener medidas y relaciones en la determinación de cantidad de material a utilizar y la creación de presupuestos para establecer precios de venta o comercialización.
+                img(src="@/assets/curso/temas/tema2/icono.png")
+            .col-10
+              p La comprensión de la relación que existe entre propiedades como el área, el perímetro y el volumen, ayudan a entender y proyectar diseños constructivos de mobiliarios a partir de la construcción, permitiendo obtener medidas y relaciones en la determinación de cantidad de material a utilizar y la creación de presupuestos para establecer precios de venta o comercialización.
 
-    p La geometría plana, consiste en el estudio de las figuras y composiciones que pueden generarse a partir de la unión de líneas, resultante en elementos denominados <b>polígonos.</b>
+    p La geometría plana, consiste en el estudio de las figuras y composiciones que pueden generarse a partir de la unión de líneas, resultante en elementos denominados #[b polígonos].
 
-    p.mb-5 Observe la derivación de su composición.
+    p Observemos la derivación de su composición:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.color-secundario.p-4
@@ -56,10 +55,15 @@
 
           
     p.my-4.mb-5 Los polígonos se dividen en función del número de lados:
-    
+
     .row.justify-content-center.mb-5
         figure.mb-5
-          img(src='@/assets/curso/temas/tema3/img-8.png')
+          img(src='@/assets/curso/temas/tema3/img1.svg')
+
+    .row.justify-content-center.mb-5
+        figure.mb-5
+          img(src='@/assets/curso/temas/tema3/img2.svg')
+
    
     p.mb-5 Las anteriores figuras geométricas son las más utilizadas en la composición de diseños de mobiliarios, además del círculo o circunferencia. Una vez identificadas las principales figuras geométricas planas y polígonos, es importante conocer los conceptos de <b>perímetro</b> y <b>área</b>:
 
@@ -103,15 +107,15 @@
         figure 
           img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-9.png')
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-10.png')})`}"
-      )
-      .bloque-texto-g__texto.p-5.m-5
-        p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el <em>sketch</em> o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
-          
-
-    
+    .row.mt-5.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-10.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5.m-5
+            p En la actualidad y gracias a las tecnologías de la información y comunicación, así como algunas 4.0, es posible contar con dispositivos móviles tipo tabletas o celulares con aplicaciones especializadas para el <em>sketch</em> o desarrollo de bocetos digitales que agilizan y presentan una mayor gama de opciones al momento de representar o plasmar ideas de diseño. 
+              
 
 </template>
 

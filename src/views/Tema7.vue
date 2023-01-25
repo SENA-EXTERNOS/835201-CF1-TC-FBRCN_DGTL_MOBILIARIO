@@ -22,8 +22,9 @@
 
     #t_7_1.titulo-segundo.color-acento-contenido.pt-3
       h2 7.1 Dibujo y recreación de ambientes
-    p El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto , y de esta manera proveer o suministrar lo que necesitan. En este sentido, en el caso del mobiliario, es importante distinguir elementos como, si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras. 
-    
+
+    p El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto y de esta manera proveer o suministrar lo que necesitan. En el caso del mobiliario, es importante distinguir elementos como: si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras.
+
     p Existen más tipos de estrategias de mercadeo, se recomienda consultar el documento referenciado en el material complementario.
 
     p.mb-5 Algunas de las técnicas para esta actividad  son:
@@ -36,23 +37,23 @@
             .col-11.mx-4
               ul.lista-ul
                 li 
-                  i.lista-ul__vineta
-                  | Indiferenciada: hace referencia a la oferta y muestra masiva del producto; esto, con el propósito de conseguir la mayor cantidad de clientes.
+                  i.fa.fa-circle
+                  p.mb-0 #[b Indiferenciada:] hace referencia a la oferta y muestra masiva del producto; esto, con el propósito de conseguir la mayor cantidad de clientes.
                 li
               ul.lista-ul
                 li 
-                  i.lista-ul__vineta
-                  | Diferenciada: consiste en establecer diferentes grupos y definir de mercadeo para cada uno de ellos; esto hace que la estrategia sea más focalizada en los grupos identificados.  
+                  i.fa.fa-circle
+                  p.mb-0 #[b Diferenciada:] consiste en establecer diferentes grupos y definir de mercadeo para cada uno de ellos; esto hace que la estrategia sea más focalizada en los grupos identificados.  
                 li
                 ul.lista-ul
                 li 
-                  i.lista-ul__vineta
-                  | Concentrada: se enfoca en la escogencia de un solo segmento del mercado.
+                  i.fa.fa-circle
+                  p.mb-0 #[b Concentrada:] se enfoca en la escogencia de un solo segmento del mercado.
                 li
                 ul.lista-ul
                 li 
-                  i.lista-ul__vineta
-                  | Uno a uno (1 a 1): es la estrategia de segmentación más personalizada, está dirigida específicamente a clientes individuales.
+                  i.fa.fa-circle
+                  p.mb-0 #[b Uno a uno (1 a 1):] es la estrategia de segmentación más personalizada, está dirigida específicamente a clientes individuales.
                 li
           .col-md-6
             figure
@@ -92,7 +93,6 @@
 
           p De acuerdo a lo señalado anteriormente, la administración requiere que quien ejerce la función de encargado o administrador, cumpla con una serie de requisitos; a estos requisitos se le denomina <b>perfil</b>. El perfil, es el compendio de aptitudes y actitudes que de acuerdo al tipo de organización, empresa o proyecto que se administre, se requieren para el éxito y sostenibilidad del mismo.
 
-    p Para profundizar en el concepto de administración, se recomienda consultar el documento referenciado en el material complementario.
 
     tarjeta
 </template>

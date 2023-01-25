@@ -36,7 +36,16 @@
 
             p.mt-4.color-texto.text-center Normalmente polipropileno, son materias primas de envases transformados en vigas para mecanizar, similar a la madera.
 
-    p.pt-5 No olvide realizar la actividad interactiva, con esta tendrá la oportunidad de revisar algunos temas vistos en el componente formativo. Además, diríjase al menú principal para encontrar diferentes recursos que le ayudará a reforzar los conocimientos adquiridos.
+    .row.justify-content-center.mt-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4.mb-4.color-gris
+          .row.justify-content-center
+            .col-1
+              figure
+                img(src="@/assets/curso/temas/tema2/icono.png")
+            .col-10
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+              
                 
 </template>
 <script>

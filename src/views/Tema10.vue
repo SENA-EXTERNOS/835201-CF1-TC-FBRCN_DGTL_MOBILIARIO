@@ -7,8 +7,8 @@
         span 10
       h1 Introducción a la producción, servicios y productos de la cadena de valor
 
-    p.mb-5 Conozca sobre la introducción a la producción, los servicios y productos de la cadena de valor en el siguiente video.
-      
+    p.mb-5 Conozca sobre producción, servicios y productos de la cadena de valor, en el siguiente video:
+    
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

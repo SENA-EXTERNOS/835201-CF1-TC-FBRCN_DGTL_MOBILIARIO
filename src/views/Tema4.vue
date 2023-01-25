@@ -7,14 +7,12 @@
         span 4
       h1 Dibujo con perspectivas, utilización de uno y más puntos de fuga
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.align-items-start.mb-5
-      .bloque-texto-g__img.mod-2(
-        :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/img-1.png')})`}"
-      )
-      .bloque-texto-g__texto.in-2.p-4.mb-5
-        p La perspectiva en el dibujo es la técnica que le permite al diseñador o proyectista <b>trasmitirle al espectador la sensación de profundidad o un espacio de tres dimensiones </b>en una ilustración, boceto o creación en un recurso plano como una hoja.
+    .row.justify-content-center
+      .col-lg-9
+        figure
+          img(src='@/assets/curso/temas/tema4/img1.svg')
 
-    p.mb-5 El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
+    p.mb-5.mt-5 El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
     
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Visual ")
@@ -40,17 +38,12 @@
 
     p.mb-5.ms-5 <em> Way, M. (1991) Dibujo con perspectivas, utilización de uno y más puntos de fuga.</em>
 
-    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5.fnd-der-1
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0.mt-5
-          figure(data-aos="fade-right")
-            img.img-250.img-cen(src='@/assets/curso/temas/tema4/img-2.png')
-            figcaption.color-fig Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p <b>El principio de convergencia</b> o, como a veces se le llama, <b>punto de fuga</b>, corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
+    .row.justify-content-center
+      .col-lg-9
+        figure
+          img(src='@/assets/curso/temas/tema4/img1.svg')
 
-    h2.mb-5 La utilización de dos puntos de fuga
+    h2.mb-5.mt-5 La utilización de dos puntos de fuga
 
     p.mb-5 Tenemos comprensión sobre el uso de un punto de fuga, observe en la siguiente información donde se puede ver cuando tenemos más de un solo punto.
 
