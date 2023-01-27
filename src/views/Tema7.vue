@@ -21,7 +21,7 @@
     separador
 
     #t_7_1.titulo-segundo.color-acento-contenido.pt-3
-      h2 7.1 Dibujo y recreación de ambientes
+      h2 7.1 Técnicas de mercadeo
 
     p El mercadeo es la actividad desarrollada para entender las necesidades que tienen los clientes de un producto y de esta manera proveer o suministrar lo que necesitan. En el caso del mobiliario, es importante distinguir elementos como: si el mercado al que se quiere dirigir el producto está compuesto por familias jóvenes, personas solteras, personas mayores, tipo de nivel socioeconómico, entre otras.
 

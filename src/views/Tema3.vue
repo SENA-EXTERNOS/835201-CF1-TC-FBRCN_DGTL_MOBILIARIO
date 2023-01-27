@@ -84,7 +84,7 @@
 
       h2 <em>Sketch</em>
 
-      p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b>sketch,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
+      p Una vez revisados los conceptos básicos de geometría y dibujo técnico, será más fácil y comprensible desarrollar el término <b><em>Sketch</em>,</b> o como se conoce en español <b>boceto.</b> Un sketch o boceto corresponde a una <b>composición gráfica libre, básica y preliminar de una idea</b> que una persona o diseñador tiene sobre algún producto o elemento que desea materializar, mediante algún método constructivo o de producción. 
 
   
     .row.mb-5

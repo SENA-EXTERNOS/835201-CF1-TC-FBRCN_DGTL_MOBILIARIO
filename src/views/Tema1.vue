@@ -21,7 +21,7 @@
         .cajon.color-acento-contenido.p-4.mb-4.color-bloque1.mb-5(data-aos="fade-right")
             p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales</b> o <b>ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio</b> y <b>descanso</b> de las personas y, recientemente, muy posicionado, para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo</b> juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios. 
 
-    p.mb-5 Es importante tener en cuenta que, al referirse a mobiliario o “mueble”, no solo se hace referencia al objeto en el cual se puede reposar, sentarse o acostarse una persona; el término, también habla del conjunto de elementos o productos que permiten, además, la <b>distribución de artículos en espacios abiertos y cerrados en coordinación y armonía con las personas que realizan una actividad o habitan un espacio</b>. Es por esta razón que, en el caso del comercio, el diseño de stands garantiza, en gran medida, el impacto visual de un elemento que quiera ser exhibido al público para su venta, tomando gran relevancia el color y la forma.
+    p.mb-5 Es importante tener en cuenta que, al referirse a mobiliario o “mueble”, no solo se hace referencia al objeto en el cual se puede reposar, sentarse o acostarse una persona; el término, también habla del conjunto de elementos o productos que permiten, además, la <b>distribución de artículos en espacios abiertos y cerrados en coordinación y armonía con las personas que realizan una actividad o habitan un espacio</b>. Es por esta razón que, en el caso del comercio, el diseño de #[i stands] garantiza, en gran medida, el impacto visual de un elemento que quiera ser exhibido al público para su venta, tomando gran relevancia el color y la forma.
 
     .separador.p-3.mb-5
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
@@ -142,8 +142,7 @@
               img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
 
     .row.mt-5
-      p Así mismo, existen elementos intangibles, netamente subjetivos que, desde la psicología, juegan un rol sustancial en el impacto sobre los clientes y determinan, en gran medida, el éxito de un producto. Conozcamos estos elementos:   
-
+      p Así mismo, existen elementos intangibles, netamente subjetivos que, desde la psicología, juegan un rol sustancial en el impacto sobre los clientes y determinan, en gran medida, el éxito de un producto. Conozcamos estos elementos:
     
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").mt-5
       .row(titulo="La seguridad")

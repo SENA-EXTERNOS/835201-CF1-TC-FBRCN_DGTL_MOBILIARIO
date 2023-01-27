@@ -61,7 +61,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Geometría básica e introducción al sketch',
+        titulo: 'Geometría básica e introducción al <em>sketch</em>',
         desarrolloContenidos: true,
       },
       {
@@ -109,7 +109,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '7.1',
-            titulo: 'Dibujo y recreación de ambientes',
+            titulo: 'Técnicas de mercadeo',
             hash: 't_7_1',
           },
           {
