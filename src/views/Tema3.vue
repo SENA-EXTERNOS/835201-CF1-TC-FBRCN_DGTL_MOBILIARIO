@@ -102,7 +102,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 3
-              | Los bocetos se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
+              | Los bocetos se armonizan y complementan con aplicación de color para indicar propiedades como texturas o materiales. Las acuarelas, colores o marcadores son utilizados normalmente para lograr la mayor representatividad de estos conceptos.
       .col-6
         figure 
           img.img-250.img-cen(src='@/assets/curso/temas/tema3/img-9.png')

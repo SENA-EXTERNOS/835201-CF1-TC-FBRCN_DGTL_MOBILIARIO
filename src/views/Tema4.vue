@@ -7,10 +7,15 @@
         span 4
       h1 Dibujo con perspectivas, utilización de uno y más puntos de fuga
 
-    .row.justify-content-center
-      .col-lg-9
-        figure
-          img(src='@/assets/curso/temas/tema4/img1.svg')
+    .row.justify-content-center.align-items-stretch.mb-5           
+      .col-lg-5.bg1.j.p-5
+        p.mb-0.text-white La perspectiva en el dibujo es la técnica que le permite al diseñador o proyectista trasmitirle al espectador la sensación de profundidad o un espacio de tres dimensiones en una ilustración, boceto o creación en un recurso plano como una hoja.
+      .col-lg-4.bg2.p-0
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/1.png', alt='') 
+        .p-4
+          p.mb-0 El dibujo en perspectiva transporta al observador al espacio o realidad que el diseñador quiere transmitir, es fundamental para lograr trasmitir emociones a través de un dibujo.
+
+
 
     p.mb-5.mt-5 El proceso constructivo de dibujos, ilustraciones o bocetos con perspectiva consta de elementos como:
     
@@ -38,10 +43,14 @@
 
     p.mb-5.ms-5 <em> Way, M. (1991) Dibujo con perspectivas, utilización de uno y más puntos de fuga.</em>
 
-    .row.justify-content-center
-      .col-lg-9
-        figure
-          img(src='@/assets/curso/temas/tema4/img1.svg')
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-4.bg2.p-0
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.png', alt='') 
+        .p-4
+          p.mb-0 Ejemplo del boceto de un mueble en perspectiva utilizando un punto de fuga sobre la línea del horizonte.                
+      .col-lg-5.bg1.j.p-5
+        p.mb-0.text-white #[b El principio de convergencia] o, como a veces se le llama, #[b punto de fuga], corresponde al punto ubicado sobre la línea del horizonte, sobre el cual convergen las líneas oblicuas o las tres dimensiones que en la realidad, son paralelas.
+
 
     h2.mb-5.mt-5 La utilización de dos puntos de fuga
 
