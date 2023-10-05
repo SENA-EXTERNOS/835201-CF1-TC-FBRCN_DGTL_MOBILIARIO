@@ -14,12 +14,12 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.svg')
 
-      p.mt-5 En el caso del diseño mobiliario, el uso y la función del mueble, juegan un papel muy importante, porque esto determina el tipo de espacio y público al cual va a ser dirigido. 
-          
+      p.mt-5 En el caso del diseño mobiliario, el uso y la función del mueble juegan un papel muy importante, porque esto determina el tipo de espacio y público al cual va a ser dirigido.
+
     .row.justify-content-center.pt-4
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4.color-bloque1.mb-5(data-aos="fade-right")
-            p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales</b> o <b>ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio</b> y <b>descanso</b> de las personas y, recientemente, muy posicionado, para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo</b> juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios. 
+            p Los <b>mobiliarios</b> no solo cumplen la función de proveer solución a necesidades <b>laborales, industriales</b> o <b>ejecutivas</b>, también son muy importantes para el disfrute de momentos de <b>ocio</b> y <b>descanso</b> de las personas y, recientemente, muy posicionado para el disfrute de mascotas y animales de compañía. Así mismo, el aspecto <b>decorativo</b> juega un papel preponderante al momento de llevar a cabo proyectos habitacionales y comerciales, siendo un factor determinante la escogencia de materiales, texturas, formas y colores que combinen con las propuestas o diseños arquitectónicos y de espacios.
 
     p.mb-5 Es importante tener en cuenta que, al referirse a mobiliario o “mueble”, no solo se hace referencia al objeto en el cual se puede reposar, sentarse o acostarse una persona; el término, también habla del conjunto de elementos o productos que permiten, además, la <b>distribución de artículos en espacios abiertos y cerrados en coordinación y armonía con las personas que realizan una actividad o habitan un espacio</b>. Es por esta razón que, en el caso del comercio, el diseño de #[i stands] garantiza, en gran medida, el impacto visual de un elemento que quiera ser exhibido al público para su venta, tomando gran relevancia el color y la forma.
 
@@ -56,7 +56,7 @@
 
     .row.mb-5
       .col-lg-7
-          p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: <em>red, yellow, blue</em>. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores. 
+          p.mb-0 <b>Los colores primarios tradicionales</b> corresponden al amarillo, azul y rojo, en inglés: <em>red, yellow, blue</em>. Es común encontrar el acrónimo de estos como (RYB). Estos colores, son apreciables en elementos propios de la naturaleza como las flores.
             br
             br
           p Si bien son ampliamente usados en las artes plásticas, en el diseño digital de mobiliario que se estudiará a lo largo de estas unidades, los colores <b>rojo, verde</b> y <b>azul</b>, hacen referencia a los <b>primarios de la luz</b>, pues son los <b></b>tonos percibidos por el ojo humano en los dispositivos que funcionan con emisiones luminosas (pantallas). Estos, en función de su saturación (cantidad), generan los colores apreciables en este tipo de dispositivos. La combinación de los mismos, genera el color blanco, pero ante la ausencia de estos, el ojo humano percibe el color negro, pues no hay emisión de luz.
@@ -71,7 +71,7 @@
       .col-lg-7
             h3.text-regular.mb-0 Los <b>colores primarios CMYK</b>, denominados así por sus siglas en inglés cian, magenta, <em>yellow, key</em> (cian, magenta, amarillo, negro), son los colores primarios que normalmente se utilizan en los procesos de <b>impresión</b> en formatos planos, es decir, son los que se utilizan en imprentas, impresoras y demás procesos de impresión convencionales; la combinación entre ellos, es lo que genera la gama de colores que podemos apreciar en impresiones de pequeño, mediano y gran formato.
 
-    p.mb-5 A continuación, observemos cómo se utilizan los colores, en diferentes entornos:
+    p.mb-5 A continuación, observemos cómo se utilizan los colores en diferentes entornos:
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -99,12 +99,12 @@
           figcaption.text-center.mt-3  <em> Círculo cromático degradado</em>.
 
     .row.justify-content-evenly.align-items-center.mt-5.pb-5
-      
-      .col-lg-6.mb-4 
+
+      .col-lg-6.mb-4
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/c26mGXek6Fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .col-lg-6 
+      .col-lg-6
         figure.mb-4
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5Q3x-PxmSVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -127,8 +127,8 @@
 
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
-            p Dentro de las consideraciones y características del diseño de mobiliario, la <b>geometría</b>, el <b>espacio</b>, los <b>elementos constructivos, estética, ergonomía, higiene, normativa</b> y <b>reglamentación</b>, juegan un papel muy importante para determinar el éxito de un producto. 
-          
+            p Dentro de las consideraciones y características del diseño de mobiliario, la <b>geometría</b>, el <b>espacio</b>, los <b>elementos constructivos, estética, ergonomía, higiene, normativa</b> y <b>reglamentación</b>, juegan un papel muy importante para determinar el éxito de un producto.
+
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
@@ -143,7 +143,7 @@
 
     .row.mt-5
       p Así mismo, existen elementos intangibles, netamente subjetivos que, desde la psicología, juegan un rol sustancial en el impacto sobre los clientes y determinan, en gran medida, el éxito de un producto. Conozcamos estos elementos:
-    
+
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").mt-5
       .row(titulo="La seguridad")
           p Entra en juego a la hora de garantizar, en la medida de lo posible, un producto seguro. Esto significa pensar en los riesgos de quién lo va a usar. Evitar errores como filos y malos acabados, son tareas donde interviene el diseño de mobiliario.

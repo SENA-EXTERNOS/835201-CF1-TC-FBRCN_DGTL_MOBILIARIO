@@ -10,7 +10,7 @@
     .tarjeta.p-4.p-md-5.mb-5.fondo1.color-gris(data-aos="fade-left")
       .row.justify-content-end.align-items-center
         .col-md-5.order-md-first.order-sm-last
-          p.py-5 La ergonomía es la disciplina que se encarga de estudiar las <b>condiciones, ambientes</b>y<b> parámetros</b> sobre los cuales deben ser diseñados los elementos, productos y demás objetos, que el ser humano emplea en los distintos espacios de trabajo, habitabilidad y demás. 
+          p.py-5 La ergonomía es la disciplina que se encarga de estudiar las <b>condiciones, ambientes</b> y <b> parámetros</b> sobre los cuales deben ser diseñados los elementos, productos y demás objetos, que el ser humano emplea en los distintos espacios de trabajo, habitabilidad y demás.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
           figure

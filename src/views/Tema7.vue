@@ -13,7 +13,7 @@
       )
       .bloque-texto-g__texto.p-4.mb-5
 
-        p.my-4 El mercado de los productos mobiliarios es tan diverso y amplio como el tipo de clientes que pueden existir. <b>Los clientes</b> son las personas que, en función de sus gustos, preferencias y actividades, demandan la adquisición de mobiliarios para el descanso, ocio, trabajo e incluso, mascotas. 
+        p.my-4 El mercado de los productos mobiliarios es tan diverso y amplio como el tipo de clientes que pueden existir. <b>Los clientes</b> son las personas que, en función de sus gustos, preferencias y actividades, demandan la adquisición de mobiliarios para el descanso, ocio, trabajo e incluso, mascotas.
         br
         br
         p.my-2 El estudio y diferenciación de los tipos de clientes, es una actividad que se denomina <b>segmentación</b>, es importante saber que los productos mobiliarios, al igual que la ropa, tienen un público o clientes en particular; a este conglomerado de personas o clientes, se denomina <b></b>mercado.
@@ -36,22 +36,22 @@
             p La segmentación consiste en definir e identificar a determinados tipos de clientes de un mercado, para dirigir a estos el producto o servicio demandado por estos. Se resaltan cuatro tipos de segmentación:
             .col-11.mx-4
               ul.lista-ul
-                li 
+                li
                   i.fa.fa-circle
                   p.mb-0 #[b Indiferenciada:] hace referencia a la oferta y muestra masiva del producto; esto, con el propósito de conseguir la mayor cantidad de clientes.
                 li
               ul.lista-ul
-                li 
+                li
                   i.fa.fa-circle
-                  p.mb-0 #[b Diferenciada:] consiste en establecer diferentes grupos y definir de mercadeo para cada uno de ellos; esto hace que la estrategia sea más focalizada en los grupos identificados.  
+                  p.mb-0 #[b Diferenciada:] consiste en establecer diferentes grupos y definir técnicas de mercadeo para cada uno de ellos; esto hace que la estrategia sea más focalizada en los grupos identificados.
                 li
                 ul.lista-ul
-                li 
+                li
                   i.fa.fa-circle
                   p.mb-0 #[b Concentrada:] se enfoca en la escogencia de un solo segmento del mercado.
                 li
                 ul.lista-ul
-                li 
+                li
                   i.fa.fa-circle
                   p.mb-0 #[b Uno a uno (1 a 1):] es la estrategia de segmentación más personalizada, está dirigida específicamente a clientes individuales.
                 li

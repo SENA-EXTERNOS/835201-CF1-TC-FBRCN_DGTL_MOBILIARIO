@@ -9,7 +9,7 @@
 
     .tarjeta.p-4.p-md-5.mb-5.fondo6.color-gris
       .row.justify-content-end.align-items-center
-        .col-md-5.order-md-first.order-sm-last.py-4 
+        .col-md-5.order-md-first.order-sm-last.py-4
           p Es importante examinar en el diseño de producto mobiliario, cómo impacta de manera visual con el público, esto garantiza en gran medida su éxito y aceptación. En esta ocasión se revisarán los aspectos relacionados de la manera en la cual un producto puede ser mejor percibido por las personas en un ambiente en particular y los materiales y accesorios que facilitan esta mejor percepción de manera general.
 
         .col-md-6.mb-4.mb-md-0.order-md-last.order-sm-first
@@ -21,7 +21,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido.pb-2
       h2 6.1 Dibujo y recreación de ambientes
 
-    .row.mb-5 
+    .row.mb-5
       .col-6
         figure(data-aos="fade-right")
           img(src="@/assets/curso/temas/tema6/img-02.png")
@@ -48,8 +48,8 @@
         SlyderA.tarjeta.color-gris.mb-5.p-5(tipo="b")
           .row.justify-content-between
             .col-md-6.mt-4
-              h2 Colores cálidos 
-              p.col-lg-12.col-md-7.mt-3 Son los colores que trasmiten o generan al espectador una sensación cálida. Se usa para un ambiente habitacional que pretenda trasmitir calidez y comodidad.
+              h2 Colores cálidos
+              p.col-lg-12.col-md-7.mt-3 Son los colores que trasmiten o generan al espectador una sensación cálida. Se usan para un ambiente habitacional que pretenda trasmitir calidez y comodidad.
             .col-md-5
               figure
                 img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-2.png')
@@ -58,12 +58,12 @@
               figure
                 img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-3.png')
             .col-md-5.mt-5
-              h2 Colores fríos  
+              h2 Colores fríos
               p.col-lg-12.col-md-7.mt-4 Son aquellos que le transmiten al espectador una sensación más fría o fresca.
           .row.justify-content-between
             .col-md-6.mt-4
-              h2 Colores pastel 
-              p.col-lg-12.col-md-7.mt-5 Tienen una saturación muy baja, también se describen como ligeros, algunos de ellos son usados para generar sensaciones calmantes y tranquilizantes al espectador. 
+              h2 Colores pastel
+              p.col-lg-12.col-md-7.mt-5 Tienen una saturación muy baja, también se describen como ligeros, algunos de ellos son usados para generar sensaciones calmantes y tranquilizantes al espectador.
             .col-md-5
               figure
                 img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-4.png')
@@ -72,7 +72,7 @@
               figure
                 img.img-250.img-cen(src='@/assets/curso/temas/tema6/img-5.png')
             .col-md-6.mt-5
-              h2 Colores neutros 
+              h2 Colores neutros
               p.col-lg-12.col-md-7.mt-3 Como gris, negro y blanco han sido los tradicionalmente utilizados en los diseños de los mobiliarios de oficina.
           .row.justify-content-around
             .col-md-6.mt-4
@@ -87,7 +87,7 @@
     #t_6_2.titulo-segundo.color-acento-contenido.pb-3
       h2 6.2 Materiales metálicos y accesorios
 
-    p.mb-5 La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez. 
+    p.mb-5 La mayoría del mobiliario producido es realizado con madera; sin embargo, en el trabajo de la madera para la conformación de productos, el uso de materiales como el acero, el hierro, fundiciones de hierro y aluminio, juega un rol importante al momento de otorgar propiedades como resistencia, vistosidad y robustez.
 
     .row.mt-5.justify-content-center
       .col-lg-10
@@ -100,8 +100,8 @@
             br
             br
             p El acero en particular le otorga al inmueble la propiedad de robustez y le transmite al observador una característica de seguridad y durabilidad.
-            
-    
+
+
     .row.mt-5.justify-content-center
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.fnd-izq-5
@@ -114,7 +114,7 @@
                 br
                 br
             .col-lg-4.mb-4.mb-lg-0.mt-5
-          
+
 </template>
 <script>
 export default {

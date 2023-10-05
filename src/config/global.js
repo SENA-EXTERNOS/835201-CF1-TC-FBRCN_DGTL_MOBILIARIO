@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo: `Diseño de mobiliario con enfoque a mercado y clientes`,
-    descripcionCurso: `Este componente se encuentra enfocado en la adquisición de las competencias básicas del dibujo y el diseño de prototipos para mobiliarios, tomando como referencia, los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, con el objetivo de aprender a orientarse en la satisfacción de las necesidades del cliente y del mercado.`,
+    descripcionCurso: `Este componente se encuentra enfocado en la adquisición de las competencias básicas del dibujo y el diseño de prototipos para mobiliarios, tomando como referencia los elementos de ergonomía, estética, materiales, costos de producción y herramientas de las tecnologías 4.0, con el objetivo de aprender a orientarse en la satisfacción de las necesidades del cliente y del mercado.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo.png'),
     imagenesDecorativasBanner: [

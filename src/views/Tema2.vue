@@ -8,7 +8,7 @@
       h1 Dibujo técnico, elementos y herramientas
 
     .row.justify-content-center
-      .col-lg-9
+      .col-lg-10.col-12
         figure
           img(src='@/assets/curso/temas/tema2/img1.svg')
 
@@ -16,18 +16,18 @@
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4.color-gris
           p El objetivo del dibujo técnico consiste en representar los objetos de forma clara e inequívoca para su correcta lectura, análisis e interpretación.
-          
+
     .row.justify-content-end.align-items-center
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema2/img-2.png")
       .col-md-6
-        p El <b>plano</b>, es el recurso o herramienta sobre la cual se basa el dibujo técnico para plasmar o representar ideas y/o conceptos, en éste se emplean instrumentos de dibujo, ya sean tradicionales como la regla, escuadra, lápiz de carbón, etc., así mismo los encontramos en los modernos programas de <b>CAD</b> <em>(Computer Added Design)</em>. 
+        p El <b>plano</b>, es el recurso o herramienta sobre la cual se basa el dibujo técnico para plasmar o representar ideas y/o conceptos, en éste se emplean instrumentos de dibujo, ya sean tradicionales como la regla, escuadra, lápiz de carbón, etc., así mismo los encontramos en los modernos programas de <b>CAD</b> <em>(Computer Added Design)</em>.
 
-        p En los planos se emplea la <b>escala</b>, el uso de esta herramienta debe ser entendido por cualquier persona con formación técnica básica. 
+        p En los planos se emplea la <b>escala</b>, el uso de esta herramienta debe ser entendido por cualquier persona con formación técnica básica.
 
-        p Los <b>símbolos</b> también son empleados en los planos, estos nos facilitan la representación de los elementos. 
-        
+        p Los <b>símbolos</b> también son empleados en los planos, estos nos facilitan la representación de los elementos.
+
         .cajon.color-acento-contenido.p-4.mb-4.color-gris
           .row.justify-content-center
             .col-2
@@ -62,7 +62,7 @@
         .row.justify-content-center.mb-3
           .col-12
             img(src='@/assets/curso/temas/tema2/img-8.png')
-    
+
     .tarjeta.color-acento-contenido.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
